@@ -1,0 +1,9551 @@
+{
+  "special_tokens": [
+    "<|pad|>",
+    "<|bos|>",
+    "<|eos|>",
+    "<|unk|>",
+    "<|context|>",
+    "<|user|>",
+    "<|assistant|>"
+  ],
+  "vocab": {
+    "<|pad|>": 0,
+    "<|bos|>": 1,
+    "<|eos|>": 2,
+    "<|unk|>": 3,
+    "<|context|>": 4,
+    "<|user|>": 5,
+    "<|assistant|>": 6,
+    "\n": 7,
+    "\t": 8,
+    " ": 9,
+    "!": 10,
+    "\"": 11,
+    "#": 12,
+    "$": 13,
+    "%": 14,
+    "&": 15,
+    "'": 16,
+    "(": 17,
+    ")": 18,
+    "*": 19,
+    "+": 20,
+    ",": 21,
+    "-": 22,
+    ".": 23,
+    "/": 24,
+    "0": 25,
+    "1": 26,
+    "2": 27,
+    "3": 28,
+    "4": 29,
+    "5": 30,
+    "6": 31,
+    "7": 32,
+    "8": 33,
+    "9": 34,
+    ":": 35,
+    ";": 36,
+    "<": 37,
+    "=": 38,
+    ">": 39,
+    "?": 40,
+    "@": 41,
+    "A": 42,
+    "B": 43,
+    "C": 44,
+    "D": 45,
+    "E": 46,
+    "F": 47,
+    "G": 48,
+    "H": 49,
+    "I": 50,
+    "J": 51,
+    "K": 52,
+    "L": 53,
+    "M": 54,
+    "N": 55,
+    "O": 56,
+    "P": 57,
+    "Q": 58,
+    "R": 59,
+    "S": 60,
+    "T": 61,
+    "U": 62,
+    "V": 63,
+    "W": 64,
+    "X": 65,
+    "Y": 66,
+    "Z": 67,
+    "[": 68,
+    "\\": 69,
+    "]": 70,
+    "^": 71,
+    "_": 72,
+    "`": 73,
+    "a": 74,
+    "b": 75,
+    "c": 76,
+    "d": 77,
+    "e": 78,
+    "f": 79,
+    "g": 80,
+    "h": 81,
+    "i": 82,
+    "j": 83,
+    "k": 84,
+    "l": 85,
+    "m": 86,
+    "n": 87,
+    "o": 88,
+    "p": 89,
+    "q": 90,
+    "r": 91,
+    "s": 92,
+    "t": 93,
+    "u": 94,
+    "v": 95,
+    "w": 96,
+    "x": 97,
+    "y": 98,
+    "z": 99,
+    "{": 100,
+    "|": 101,
+    "}": 102,
+    "~": 103,
+    "ç": 104,
+    "ğ": 105,
+    "ı": 106,
+    "ö": 107,
+    "ş": 108,
+    "ü": 109,
+    "Ç": 110,
+    "Ğ": 111,
+    "İ": 112,
+    "Ö": 113,
+    "Ş": 114,
+    "Ü": 115,
+    "in": 116,
+    "er": 117,
+    "an": 118,
+    "ar": 119,
+    "en": 120,
+    "il": 121,
+    "el": 122,
+    "ir": 123,
+    "al": 124,
+    "or": 125,
+    "ay": 126,
+    "is": 127,
+    "te": 128,
+    "me": 129,
+    "ın": 130,
+    "ma": 131,
+    "im": 132,
+    "on": 133,
+    "ve": 134,
+    "de": 135,
+    "ak": 136,
+    "bil": 137,
+    "le": 138,
+    "th": 139,
+    "ır": 140,
+    "lar": 141,
+    "et": 142,
+    "at": 143,
+    "ler": 144,
+    "bir": 145,
+    "ur": 146,
+    "ro": 147,
+    "ap": 148,
+    "es": 149,
+    "as": 150,
+    "lan": 151,
+    "ek": 152,
+    "ed": 153,
+    "la": 154,
+    "od": 155,
+    "ini": 156,
+    "tem": 157,
+    "ıl": 158,
+    "eri": 159,
+    "ün": 160,
+    "it": 161,
+    "da": 162,
+    "gi": 163,
+    "pro": 164,
+    "ağ": 165,
+    "ing": 166,
+    "mod": 167,
+    "model": 168,
+    "ür": 169,
+    "un": 170,
+    "ch": 171,
+    "iy": 172,
+    "ım": 173,
+    "iş": 174,
+    "yap": 175,
+    "for": 176,
+    "ent": 177,
+    "li": 178,
+    "ul": 179,
+    "ion": 180,
+    "bilir": 181,
+    "the": 182,
+    "ine": 183,
+    "lı": 184,
+    "dil": 185,
+    "dan": 186,
+    "eler": 187,
+    "ol": 188,
+    "am": 189,
+    "se": 190,
+    "of": 191,
+    "ce": 192,
+    "di": 193,
+    "ör": 194,
+    "and": 195,
+    "zek": 196,
+    "ık": 197,
+    "sis": 198,
+    "aç": 199,
+    "ut": 200,
+    "ta": 201,
+    "sistem": 202,
+    "met": 203,
+    "gün": 204,
+    "iz": 205,
+    "anı": 206,
+    "ğr": 207,
+    "enme": 208,
+    "Py": 209,
+    "ne": 210,
+    "metin": 211,
+    "iç": 212,
+    "öz": 213,
+    "dir": 214,
+    "bel": 215,
+    "mas": 216,
+    "ullan": 217,
+    "eril": 218,
+    "ok": 219,
+    "ans": 220,
+    "den": 221,
+    "do": 222,
+    "ge": 223,
+    "öğr": 224,
+    "co": 225,
+    "öğrenme": 226,
+    "mer": 227,
+    "um": 228,
+    "ış": 229,
+    "yapay": 230,
+    "az": 231,
+    "gr": 232,
+    "Bu": 233,
+    "ansfor": 234,
+    "ansformer": 235,
+    "lerin": 236,
+    "ransformer": 237,
+    "ic": 238,
+    "kullan": 239,
+    "yer": 240,
+    "ları": 241,
+    "bilgi": 242,
+    "ev": 243,
+    "lam": 244,
+    "inde": 245,
+    "bağ": 246,
+    "Pyth": 247,
+    "Python": 248,
+    "AI": 249,
+    "ct": 250,
+    "lay": 251,
+    "sor": 252,
+    "çal": 253,
+    "RA": 254,
+    "arn": 255,
+    "com": 256,
+    "RAG": 257,
+    "tü": 258,
+    "ural": 259,
+    "learn": 260,
+    "sin": 261,
+    "Transformer": 262,
+    "dır": 263,
+    "han": 264,
+    "si": 265,
+    "ğit": 266,
+    "asıl": 267,
+    "tek": 268,
+    "veril": 269,
+    "ında": 270,
+    "ını": 271,
+    "gram": 272,
+    "program": 273,
+    "zeka": 274,
+    "için": 275,
+    "ön": 276,
+    "üm": 277,
+    "nasıl": 278,
+    "par": 279,
+    "şt": 280,
+    "abilir": 281,
+    "comp": 282,
+    "kaç": 283,
+    "belg": 284,
+    "gen": 285,
+    "ri": 286,
+    "say": 287,
+    "ned": 288,
+    "eğit": 289,
+    "arak": 290,
+    "du": 291,
+    "gü": 292,
+    "larak": 293,
+    "anıt": 294,
+    "he": 295,
+    "olarak": 296,
+    "etri": 297,
+    "tab": 298,
+    "ha": 299,
+    "lerinin": 300,
+    "to": 301,
+    "ayn": 302,
+    "sa": 303,
+    "ına": 304,
+    "kat": 305,
+    "lama": 306,
+    "arı": 307,
+    "learning": 308,
+    "tan": 309,
+    "ith": 310,
+    "anlı": 311,
+    "ara": 312,
+    "bu": 313,
+    "elim": 314,
+    "sun": 315,
+    "LM": 316,
+    "Mini": 317,
+    "belgeler": 318,
+    "dım": 319,
+    "gu": 320,
+    "ly": 321,
+    "arch": 322,
+    "bilg": 323,
+    "kt": 324,
+    "leri": 325,
+    "uy": 326,
+    "ere": 327,
+    "ik": 328,
+    "yan": 329,
+    "cı": 330,
+    "ması": 331,
+    "that": 332,
+    "temel": 333,
+    "yanıt": 334,
+    "ken": 335,
+    "ks": 336,
+    "sağ": 337,
+    "ted": 338,
+    "gör": 339,
+    "işle": 340,
+    "madan": 341,
+    "ki": 342,
+    "ba": 343,
+    "bağlam": 344,
+    "ey": 345,
+    "AIS": 346,
+    "AISS": 347,
+    "FAISS": 348,
+    "etriev": 349,
+    "etrieval": 350,
+    "üntü": 351,
+    "erat": 352,
+    "bi": 353,
+    "mes": 354,
+    "anın": 355,
+    "gibi": 356,
+    "eriş": 357,
+    "net": 358,
+    "veri": 359,
+    "be": 360,
+    "ep": 361,
+    "mek": 362,
+    "eleri": 363,
+    "with": 364,
+    "yön": 365,
+    "ca": 366,
+    "if": 367,
+    "lu": 368,
+    "mı": 369,
+    "erin": 370,
+    "yöntem": 371,
+    "ces": 372,
+    "deki": 373,
+    "tir": 374,
+    "dili": 375,
+    "yerel": 376,
+    "ana": 377,
+    "ılır": 378,
+    "sal": 379,
+    "st": 380,
+    "dak": 381,
+    "men": 382,
+    "ya": 383,
+    "çok": 384,
+    "çalış": 385,
+    "ük": 386,
+    "erim": 387,
+    "iniz": 388,
+    "ity": 389,
+    "mim": 390,
+    "var": 391,
+    "yak": 392,
+    "ding": 393,
+    "em": 394,
+    "yar": 395,
+    "onu": 396,
+    "ktör": 397,
+    "su": 398,
+    "vektör": 399,
+    "yaz": 400,
+    "age": 401,
+    "eş": 402,
+    "guage": 403,
+    "language": 404,
+    "mimar": 405,
+    "op": 406,
+    "sı": 407,
+    "ins": 408,
+    "iyor": 409,
+    "ici": 410,
+    "wor": 411,
+    "alt": 412,
+    "esinde": 413,
+    "ht": 414,
+    "açık": 415,
+    "kar": 416,
+    "mimaris": 417,
+    "ayar": 418,
+    "cüm": 419,
+    "imi": 420,
+    "isayar": 421,
+    "ise": 422,
+    "Yap": 423,
+    "ize": 424,
+    "olu": 425,
+    "Derin": 426,
+    "üret": 427,
+    "parçal": 428,
+    "ses": 429,
+    "akıl": 430,
+    "bo": 431,
+    "kü": 432,
+    "Yapay": 433,
+    "hangi": 434,
+    "proj": 435,
+    "sinir": 436,
+    "ant": 437,
+    "gil": 438,
+    "modellerinin": 439,
+    "ürü": 440,
+    "alı": 441,
+    "daki": 442,
+    "ebilir": 443,
+    "int": 444,
+    "bilgisayar": 445,
+    "gel": 446,
+    "kelim": 447,
+    "len": 448,
+    "mat": 449,
+    "soru": 450,
+    "elli": 451,
+    "enin": 452,
+    "iyle": 453,
+    "yen": 454,
+    "ctor": 455,
+    "vector": 456,
+    "ürk": 457,
+    "clu": 458,
+    "vectors": 459,
+    "üş": 460,
+    "ği": 461,
+    "nedir": 462,
+    "sın": 463,
+    "çık": 464,
+    "ağları": 465,
+    "değ": 466,
+    "veya": 467,
+    "arama": 468,
+    "miş": 469,
+    "search": 470,
+    "con": 471,
+    "ilmiş": 472,
+    "kal": 473,
+    "oluşt": 474,
+    "oluştur": 475,
+    "yor": 476,
+    "The": 477,
+    "day": 478,
+    "lere": 479,
+    "ence": 480,
+    "kur": 481,
+    "kullanarak": 482,
+    "ların": 483,
+    "ention": 484,
+    "neden": 485,
+    "Türk": 486,
+    "bul": 487,
+    "cess": 488,
+    "kendi": 489,
+    "lü": 490,
+    "tention": 491,
+    "deney": 492,
+    "kayn": 493,
+    "ally": 494,
+    "neural": 495,
+    "networ": 496,
+    "networks": 497,
+    "yardım": 498,
+    "zekanın": 499,
+    "Transformers": 500,
+    "ede": 501,
+    "iyi": 502,
+    "kür": 503,
+    "unu": 504,
+    "yani": 505,
+    "aras": 506,
+    "by": 507,
+    "katm": 508,
+    "MiniLM": 509,
+    "aynı": 510,
+    "dik": 511,
+    "ekkür": 512,
+    "layabilir": 513,
+    "metinler": 514,
+    "sağlay": 515,
+    "sistemi": 516,
+    "bet": 517,
+    "ght": 518,
+    "görüntü": 519,
+    "katmanlı": 520,
+    "projenin": 521,
+    "sayesinde": 522,
+    "tak": 523,
+    "uter": 524,
+    "computer": 525,
+    "ilen": 526,
+    "kelimeler": 527,
+    "ms": 528,
+    "verileri": 529,
+    "It": 530,
+    "karma": 531,
+    "karmaş": 532,
+    "karmaşık": 533,
+    "olan": 534,
+    "ız": 535,
+    "atural": 536,
+    "dikkat": 537,
+    "erişim": 538,
+    "gn": 539,
+    "natural": 540,
+    "seç": 541,
+    "wr": 542,
+    "LLM": 543,
+    "abil": 544,
+    "dış": 545,
+    "erek": 546,
+    "lanması": 547,
+    "dur": 548,
+    "geliş": 549,
+    "ola": 550,
+    "tekn": 551,
+    "öğrenmesi": 552,
+    "ığ": 553,
+    "elligen": 554,
+    "elligence": 555,
+    "ileri": 556,
+    "insan": 557,
+    "mesini": 558,
+    "sağlayan": 559,
+    "yıl": 560,
+    "PyT": 561,
+    "PyTor": 562,
+    "PyTorch": 563,
+    "fır": 564,
+    "fırdan": 565,
+    "olo": 566,
+    "rar": 567,
+    "re": 568,
+    "veriler": 569,
+    "yürü": 570,
+    "yazıl": 571,
+    "ad": 572,
+    "ble": 573,
+    "ilir": 574,
+    "isk": 575,
+    "oloj": 576,
+    "sıfırdan": 577,
+    "yakın": 578,
+    "çe": 579,
+    "Gen": 580,
+    "arity": 581,
+    "cum": 582,
+    "ilarity": 583,
+    "imilarity": 584,
+    "mented": 585,
+    "modeli": 586,
+    "ından": 587,
+    "ınız": 588,
+    "Au": 589,
+    "Aug": 590,
+    "Augmented": 591,
+    "Bir": 592,
+    "Generat": 593,
+    "Generation": 594,
+    "Retrieval": 595,
+    "ex": 596,
+    "ilgil": 597,
+    "kullanılır": 598,
+    "oloji": 599,
+    "qu": 600,
+    "Ne": 601,
+    "ayı": 602,
+    "bec": 603,
+    "cument": 604,
+    "document": 605,
+    "kütü": 606,
+    "kütüp": 607,
+    "kütüphan": 608,
+    "yardımcı": 609,
+    "çek": 610,
+    "öl": 611,
+    "asına": 612,
+    "beceril": 613,
+    "beceriler": 614,
+    "blem": 615,
+    "cel": 616,
+    "compon": 617,
+    "component": 618,
+    "doğ": 619,
+    "documents": 620,
+    "doğal": 621,
+    "ff": 622,
+    "ilgili": 623,
+    "lit": 624,
+    "ming": 625,
+    "neler": 626,
+    "problem": 627,
+    "programming": 628,
+    "sy": 629,
+    "sistemlerinin": 630,
+    "zen": 631,
+    "zekasına": 632,
+    "çöz": 633,
+    "alanı": 634,
+    "alanıdır": 635,
+    "anda": 636,
+    "ata": 637,
+    "bas": 638,
+    "becerilerini": 639,
+    "esi": 640,
+    "etmesini": 641,
+    "ional": 642,
+    "mak": 643,
+    "mimarisi": 644,
+    "retrieval": 645,
+    "tme": 646,
+    "taklit": 647,
+    "teknoloji": 648,
+    "yürütme": 649,
+    "çözme": 650,
+    "özgü": 651,
+    "art": 652,
+    "data": 653,
+    "fro": 654,
+    "format": 655,
+    "formation": 656,
+    "from": 657,
+    "generat": 658,
+    "güncel": 659,
+    "information": 660,
+    "inp": 661,
+    "input": 662,
+    "işk": 663,
+    "lendir": 664,
+    "saat": 665,
+    "aniz": 666,
+    "bilirim": 667,
+    "generator": 668,
+    "mekaniz": 669,
+    "Mak": 670,
+    "Makine": 671,
+    "ilişk": 672,
+    "ilmiştir": 673,
+    "parçaları": 674,
+    "sed": 675,
+    "yöntemdir": 676,
+    "ğun": 677,
+    "Ar": 678,
+    "Türkçe": 679,
+    "dalı": 680,
+    "deneyim": 681,
+    "değer": 682,
+    "değerlendir": 683,
+    "ern": 684,
+    "exp": 685,
+    "güç": 686,
+    "işleyen": 687,
+    "programlama": 688,
+    "cluding": 689,
+    "cümle": 690,
+    "güçlü": 691,
+    "including": 692,
+    "res": 693,
+    "teş": 694,
+    "teşekkür": 695,
+    "ındaki": 696,
+    "Al": 697,
+    "Mod": 698,
+    "Modern": 699,
+    "arasındaki": 700,
+    "ben": 701,
+    "bağlamsal": 702,
+    "cu": 703,
+    "ilişkileri": 704,
+    "kaynak": 705,
+    "masına": 706,
+    "mekanizması": 707,
+    "mesine": 708,
+    "nt": 709,
+    "ra": 710,
+    "set": 711,
+    "sistemlerin": 712,
+    "temelini": 713,
+    "xt": 714,
+    "ach": 715,
+    "app": 716,
+    "arlı": 717,
+    "bulur": 718,
+    "deep": 719,
+    "duc": 720,
+    "ederim": 721,
+    "eğitim": 722,
+    "tut": 723,
+    "tebilir": 724,
+    "text": 725,
+    "çıkar": 726,
+    "üre": 727,
+    "ının": 728,
+    "All": 729,
+    "ama": 730,
+    "cümledeki": 731,
+    "dayan": 732,
+    "entence": 733,
+    "ih": 734,
+    "oluşturan": 735,
+    "so": 736,
+    "we": 737,
+    "üretebilir": 738,
+    "anlayabilir": 739,
+    "deneyimle": 740,
+    "değerlendirebilir": 741,
+    "inin": 742,
+    "kural": 743,
+    "process": 744,
+    "bü": 745,
+    "belgelerde": 746,
+    "des": 747,
+    "fi": 748,
+    "gelişmesine": 749,
+    "ight": 750,
+    "ines": 751,
+    "kurallar": 752,
+    "models": 753,
+    "olanak": 754,
+    "sonu": 755,
+    "taban": 756,
+    "tanır": 757,
+    "tutarlı": 758,
+    "verilerden": 759,
+    "weight": 760,
+    "yazılmadan": 761,
+    "çıkarmasına": 762,
+    "örüntü": 763,
+    "ds": 764,
+    "laş": 765,
+    "mach": 766,
+    "sayede": 767,
+    "seçilmiştir": 768,
+    "sign": 769,
+    "sistemleri": 770,
+    "sunu": 771,
+    "ts": 772,
+    "almı": 773,
+    "almıyor": 774,
+    "elimdeki": 775,
+    "erli": 776,
+    "fiel": 777,
+    "gerek": 778,
+    "har": 779,
+    "ition": 780,
+    "olabilirim": 781,
+    "part": 782,
+    "processing": 783,
+    "enti": 784,
+    "fields": 785,
+    "ision": 786,
+    "kullanı": 787,
+    "tır": 788,
+    "vision": 789,
+    "Yo": 790,
+    "asy": 791,
+    "bak": 792,
+    "bed": 793,
+    "bedding": 794,
+    "benz": 795,
+    "bugün": 796,
+    "hem": 797,
+    "iyorum": 798,
+    "işleme": 799,
+    "ni": 800,
+    "söz": 801,
+    "asyon": 802,
+    "hbet": 803,
+    "haf": 804,
+    "vardır": 805,
+    "üretir": 806,
+    "At": 807,
+    "Attention": 808,
+    "Need": 809,
+    "You": 810,
+    "aları": 811,
+    "benzerli": 812,
+    "bileş": 813,
+    "bileşen": 814,
+    "ically": 815,
+    "mo": 816,
+    "şı": 817,
+    "Vas": 818,
+    "Vasw": 819,
+    "Vaswan": 820,
+    "Vaswani": 821,
+    "diz": 822,
+    "dizimi": 823,
+    "eko": 824,
+    "ekosistemi": 825,
+    "gin": 826,
+    "icial": 827,
+    "ificial": 828,
+    "intelligence": 829,
+    "nedeniyle": 830,
+    "orun": 831,
+    "sel": 832,
+    "sözdizimi": 833,
+    "zengin": 834,
+    "01": 835,
+    "017": 836,
+    "2017": 837,
+    "adım": 838,
+    "cının": 839,
+    "edilir": 840,
+    "hal": 841,
+    "tı": 842,
+    "tanım": 843,
+    "L6": 844,
+    "belgelere": 845,
+    "dere": 846,
+    "don": 847,
+    "etir": 848,
+    "getir": 849,
+    "kon": 850,
+    "masını": 851,
+    "ow": 852,
+    "ret": 853,
+    "risk": 854,
+    "size": 855,
+    "sağlar": 856,
+    "sohbet": 857,
+    "up": 858,
+    "v2": 859,
+    "üz": 860,
+    "ştir": 861,
+    "eğitil": 862,
+    "halü": 863,
+    "halüsin": 864,
+    "işim": 865,
+    "kend": 866,
+    "mant": 867,
+    "mesi": 868,
+    "nem": 869,
+    "önem": 870,
+    "öy": 871,
+    "De": 872,
+    "alır": 873,
+    "anlam": 874,
+    "azır": 875,
+    "bile": 876,
+    "ctur": 877,
+    "cüml": 878,
+    "dim": 879,
+    "halüsinasyon": 880,
+    "kullanıcının": 881,
+    "laşım": 882,
+    "leştir": 883,
+    "rişim": 884,
+    "riskini": 885,
+    "sade": 886,
+    "sayı": 887,
+    "sunar": 888,
+    "ver": 889,
+    "yaklaşım": 890,
+    "Deep": 891,
+    "ac": 892,
+    "ada": 893,
+    "azalt": 894,
+    "birleştir": 895,
+    "hazır": 896,
+    "je": 897,
+    "küm": 898,
+    "kütüphanesi": 899,
+    "leş": 900,
+    "ten": 901,
+    "tabanlı": 902,
+    "vel": 903,
+    "aş": 904,
+    "asis": 905,
+    "azaltır": 906,
+    "dayanmasını": 907,
+    "ernet": 908,
+    "kuru": 909,
+    "oş": 910,
+    "ph": 911,
+    "ölç": 912,
+    "İy": 913,
+    "Des": 914,
+    "Destek": 915,
+    "Destekli": 916,
+    "Erişim": 917,
+    "getirilen": 918,
+    "larda": 919,
+    "mis": 920,
+    "retim": 921,
+    "uydur": 922,
+    "Üretim": 923,
+    "ça": 924,
+    "ölçü": 925,
+    "önemli": 926,
+    "ırlı": 927,
+    "Wh": 928,
+    "birbir": 929,
+    "birbirine": 930,
+    "emiyorum": 931,
+    "modelin": 932,
+    "po": 933,
+    "tara": 934,
+    "uydurma": 935,
+    "öyle": 936,
+    "all": 937,
+    "arını": 938,
+    "bileşenini": 939,
+    "ers": 940,
+    "tar": 941,
+    "tanımlanması": 942,
+    "yaklaşımdır": 943,
+    "çalışan": 944,
+    "üreten": 945,
+    "Sor": 946,
+    "birleştiren": 947,
+    "comple": 948,
+    "diğ": 949,
+    "eve": 950,
+    "eğitilmesi": 951,
+    "itten": 952,
+    "kurulan": 953,
+    "mamen": 954,
+    "mimarisinin": 955,
+    "tamamen": 956,
+    "tabanın": 957,
+    "used": 958,
+    "written": 959,
+    "ye": 960,
+    "yanıtların": 961,
+    "yapma": 962,
+    "ölçüde": 963,
+    "aper": 964,
+    "appers": 965,
+    "güv": 966,
+    "mi": 967,
+    "modeliyle": 968,
+    "paper": 969,
+    "tarih": 970,
+    "wrappers": 971,
+    "Gün": 972,
+    "any": 973,
+    "complete": 974,
+    "duced": 975,
+    "intro": 976,
+    "introduced": 977,
+    "ism": 978,
+    "larla": 979,
+    "main": 980,
+    "parçalarını": 981,
+    "siniz": 982,
+    "stem": 983,
+    "va": 984,
+    "An": 985,
+    "Fa": 986,
+    "Face": 987,
+    "Facebo": 988,
+    "Facebook": 989,
+    "Se": 990,
+    "Similarity": 991,
+    "Search": 992,
+    "akıllı": 993,
+    "are": 994,
+    "attention": 995,
+    "base": 996,
+    "bilgil": 997,
+    "dense": 998,
+    "dışarı": 999,
+    "evr": 1000,
+    "gor": 1001,
+    "iye": 1002,
+    "mış": 1003,
+    "olmadan": 1004,
+    "produ": 1005,
+    "ster": 1006,
+    "system": 1007,
+    "transformer": 1008,
+    "tekrar": 1009,
+    "were": 1010,
+    "zam": 1011,
+    "Sentence": 1012,
+    "adyan": 1013,
+    "adyanların": 1014,
+    "alarak": 1015,
+    "algor": 1016,
+    "aplanması": 1017,
+    "bağlan": 1018,
+    "ches": 1019,
+    "dge": 1020,
+    "esaplanması": 1021,
+    "giz": 1022,
+    "gradyanların": 1023,
+    "günler": 1024,
+    "hesaplanması": 1025,
+    "ific": 1026,
+    "iyim": 1027,
+    "kim": 1028,
+    "kn": 1029,
+    "know": 1030,
+    "knowle": 1031,
+    "knowledge": 1032,
+    "pon": 1033,
+    "rel": 1034,
+    "respon": 1035,
+    "similarity": 1036,
+    "self": 1037,
+    "ti": 1038,
+    "uz": 1039,
+    "yük": 1040,
+    "yerine": 1041,
+    "Kullan": 1042,
+    "Kullanı": 1043,
+    "LP": 1044,
+    "Llama": 1045,
+    "NLP": 1046,
+    "Size": 1047,
+    "Tin": 1048,
+    "Tiny": 1049,
+    "TinyLlama": 1050,
+    "brar": 1051,
+    "bağlamı": 1052,
+    "brary": 1053,
+    "cluster": 1054,
+    "clustering": 1055,
+    "dığ": 1056,
+    "duğun": 1057,
+    "eff": 1058,
+    "effici": 1059,
+    "efficient": 1060,
+    "etches": 1061,
+    "etrieve": 1062,
+    "etrieved": 1063,
+    "fetches": 1064,
+    "library": 1065,
+    "mal": 1066,
+    "misin": 1067,
+    "produces": 1068,
+    "retrieved": 1069,
+    "sets": 1070,
+    "signific": 1071,
+    "soruy": 1072,
+    "teşekkürler": 1073,
+    "vi": 1074,
+    "yılda": 1075,
+    "önce": 1076,
+    "ğru": 1077,
+    "İnt": 1078,
+    "Sa": 1079,
+    "ado": 1080,
+    "adop": 1081,
+    "aln": 1082,
+    "algorith": 1083,
+    "algorithms": 1084,
+    "alnız": 1085,
+    "alnızca": 1086,
+    "ance": 1087,
+    "anism": 1088,
+    "ayd": 1089,
+    "bines": 1090,
+    "baş": 1091,
+    "bağım": 1092,
+    "belge": 1093,
+    "belle": 1094,
+    "belleğ": 1095,
+    "belleğine": 1096,
+    "both": 1097,
+    "büyük": 1098,
+    "chanism": 1099,
+    "combines": 1100,
+    "cond": 1101,
+    "conta": 1102,
+    "condition": 1103,
+    "contains": 1104,
+    "date": 1105,
+    "derece": 1106,
+    "diff": 1107,
+    "differ": 1108,
+    "differenti": 1109,
+    "differentially": 1110,
+    "doğru": 1111,
+    "each": 1112,
+    "ery": 1113,
+    "evant": 1114,
+    "gro": 1115,
+    "groun": 1116,
+    "hava": 1117,
+    "iği": 1118,
+    "indir": 1119,
+    "ktır": 1120,
+    "lerini": 1121,
+    "maktır": 1122,
+    "mainly": 1123,
+    "mechanism": 1124,
+    "nok": 1125,
+    "nokt": 1126,
+    "out": 1127,
+    "oşça": 1128,
+    "query": 1129,
+    "relevant": 1130,
+    "response": 1131,
+    "significance": 1132,
+    "tech": 1133,
+    "unuz": 1134,
+    "without": 1135,
+    "yaparak": 1136,
+    "yeni": 1137,
+    "çük": 1138,
+    "İnternet": 1139,
+    "38": 1140,
+    "384": 1141,
+    "Siz": 1142,
+    "They": 1143,
+    "act": 1144,
+    "actu": 1145,
+    "actual": 1146,
+    "adopts": 1147,
+    "arım": 1148,
+    "bağımlı": 1149,
+    "cit": 1150,
+    "conditioned": 1151,
+    "del": 1152,
+    "duğunda": 1153,
+    "dışarıdan": 1154,
+    "elp": 1155,
+    "elps": 1156,
+    "expli": 1157,
+    "explicit": 1158,
+    "factual": 1159,
+    "gö": 1160,
+    "ground": 1161,
+    "görüş": 1162,
+    "helps": 1163,
+    "hi": 1164,
+    "indirilen": 1165,
+    "lil": 1166,
+    "machine": 1167,
+    "modellere": 1168,
+    "nelerdir": 1169,
+    "niqu": 1170,
+    "nique": 1171,
+    "tabanında": 1172,
+    "technique": 1173,
+    "use": 1174,
+    "weighting": 1175,
+    "yalnızca": 1176,
+    "yapı": 1177,
+    "Kullanıcı": 1178,
+    "ayları": 1179,
+    "açı": 1180,
+    "bağlantı": 1181,
+    "being": 1182,
+    "dından": 1183,
+    "dosy": 1184,
+    "enmek": 1185,
+    "erience": 1186,
+    "experience": 1187,
+    "explicitly": 1188,
+    "gizlil": 1189,
+    "güvenmek": 1190,
+    "impro": 1191,
+    "improve": 1192,
+    "kod": 1193,
+    "kurmaktır": 1194,
+    "med": 1195,
+    "mısın": 1196,
+    "programmed": 1197,
+    "sır": 1198,
+    "sorduğunda": 1199,
+    "soruyla": 1200,
+    "systems": 1201,
+    "sıras": 1202,
+    "tam": 1203,
+    "then": 1204,
+    "ular": 1205,
+    "yapabilir": 1206,
+    "üs": 1207,
+    "Ardından": 1208,
+    "abilirsiniz": 1209,
+    "amacı": 1210,
+    "asistan": 1211,
+    "ayr": 1212,
+    "ağırlı": 1213,
+    "ağırlık": 1214,
+    "belgeleri": 1215,
+    "bilgilere": 1216,
+    "dı": 1217,
+    "delik": 1218,
+    "derecede": 1219,
+    "diği": 1220,
+    "ko": 1221,
+    "konu": 1222,
+    "tabanı": 1223,
+    "çevr": 1224,
+    "What": 1225,
+    "Yer": 1226,
+    "Yerel": 1227,
+    "aut": 1228,
+    "access": 1229,
+    "auto": 1230,
+    "automat": 1231,
+    "automatically": 1232,
+    "ayıp": 1233,
+    "bağlantısı": 1234,
+    "benzerlik": 1235,
+    "boy": 1236,
+    "embedding": 1237,
+    "iyorsun": 1238,
+    "sev": 1239,
+    "yo": 1240,
+    "çeker": 1241,
+    "İyi": 1242,
+    "erişimim": 1243,
+    "hız": 1244,
+    "hızlı": 1245,
+    "ilo": 1246,
+    "kümeleri": 1247,
+    "lamak": 1248,
+    "mıştır": 1249,
+    "nasılsın": 1250,
+    "sen": 1251,
+    "sunucu": 1252,
+    "yoğun": 1253,
+    "Çık": 1254,
+    "Art": 1255,
+    "Bugün": 1256,
+    "Mach": 1257,
+    "Machine": 1258,
+    "adi": 1259,
+    "ayde": 1260,
+    "belir": 1261,
+    "boyut": 1262,
+    "can": 1263,
+    "dığı": 1264,
+    "erişimi": 1265,
+    "gerektir": 1266,
+    "gerektirme": 1267,
+    "gizliliği": 1268,
+    "hede": 1269,
+    "isan": 1270,
+    "içinde": 1271,
+    "kayde": 1272,
+    "korun": 1273,
+    "korunur": 1274,
+    "oluşturul": 1275,
+    "oluşturulur": 1276,
+    "por": 1277,
+    "provi": 1278,
+    "programs": 1279,
+    "sohbetleri": 1280,
+    "tün": 1281,
+    "Çok": 1282,
+    "ürüz": 1283,
+    "üşük": 1284,
+    "Artificial": 1285,
+    "Eğit": 1286,
+    "Eğitim": 1287,
+    "Kü": 1288,
+    "Küçük": 1289,
+    "ability": 1290,
+    "adig": 1291,
+    "anım": 1292,
+    "ağırlıkları": 1293,
+    "düşük": 1294,
+    "dimen": 1295,
+    "dimens": 1296,
+    "donanım": 1297,
+    "gun": 1298,
+    "göm": 1299,
+    "hafif": 1300,
+    "harici": 1301,
+    "ka": 1302,
+    "kodlarla": 1303,
+    "olay": 1304,
+    "play": 1305,
+    "paradig": 1306,
+    "provides": 1307,
+    "sonuç": 1308,
+    "sırasında": 1309,
+    "ves": 1310,
+    "yeniden": 1311,
+    "ısa": 1312,
+    "Ay": 1313,
+    "Ben": 1314,
+    "Int": 1315,
+    "Intelligence": 1316,
+    "aca": 1317,
+    "acaba": 1318,
+    "amlar": 1319,
+    "ation": 1320,
+    "bset": 1321,
+    "bilen": 1322,
+    "bilgisayarında": 1323,
+    "cted": 1324,
+    "dilir": 1325,
+    "dimensional": 1326,
+    "elves": 1327,
+    "embeddings": 1328,
+    "fon": 1329,
+    "fonks": 1330,
+    "fonksiy": 1331,
+    "gerektirmediği": 1332,
+    "haba": 1333,
+    "hedef": 1334,
+    "ima": 1335,
+    "isine": 1336,
+    "iske": 1337,
+    "kolay": 1338,
+    "kısa": 1339,
+    "kaydedilir": 1340,
+    "kont": 1341,
+    "kontro": 1342,
+    "kontrol": 1343,
+    "laşt": 1344,
+    "lara": 1345,
+    "laştır": 1346,
+    "mil": 1347,
+    "mantic": 1348,
+    "meye": 1349,
+    "mselves": 1350,
+    "nin": 1351,
+    "oken": 1352,
+    "semantic": 1353,
+    "sonuçları": 1354,
+    "subset": 1355,
+    "tanıt": 1356,
+    "themselves": 1357,
+    "work": 1358,
+    "yla": 1359,
+    "yapar": 1360,
+    "çalışma": 1361,
+    "ürür": 1362,
+    "Em": 1363,
+    "Embedding": 1364,
+    "Tüm": 1365,
+    "abilen": 1366,
+    "archi": 1367,
+    "archite": 1368,
+    "architectur": 1369,
+    "artificial": 1370,
+    "aydın": 1371,
+    "ayrılır": 1372,
+    "belirte": 1373,
+    "belirteç": 1374,
+    "belirteçlere": 1375,
+    "bütün": 1376,
+    "bütünleş": 1377,
+    "bütünleşik": 1378,
+    "cunu": 1379,
+    "cümleler": 1380,
+    "diske": 1381,
+    "dön": 1382,
+    "dem": 1383,
+    "devel": 1384,
+    "demon": 1385,
+    "demonst": 1386,
+    "demonstra": 1387,
+    "demonstrated": 1388,
+    "destek": 1389,
+    "develop": 1390,
+    "diğinde": 1391,
+    "dosyaları": 1392,
+    "doğrulama": 1393,
+    "dönü": 1394,
+    "dönüşt": 1395,
+    "edir": 1396,
+    "elde": 1397,
+    "ellik": 1398,
+    "eğitilmiş": 1399,
+    "fo": 1400,
+    "fra": 1401,
+    "focu": 1402,
+    "frame": 1403,
+    "framework": 1404,
+    "ghtweight": 1405,
+    "gündelik": 1406,
+    "güncellen": 1407,
+    "hum": 1408,
+    "image": 1409,
+    "işlemi": 1410,
+    "lanabilir": 1411,
+    "larında": 1412,
+    "lightweight": 1413,
+    "machines": 1414,
+    "masında": 1415,
+    "noktaları": 1416,
+    "okenlara": 1417,
+    "pop": 1418,
+    "sentence": 1419,
+    "sp": 1420,
+    "sta": 1421,
+    "sonucunu": 1422,
+    "state": 1423,
+    "tokenlara": 1424,
+    "tabanındaki": 1425,
+    "veren": 1426,
+    "özellik": 1427,
+    "üzere": 1428,
+    "Anlam": 1429,
+    "Mer": 1430,
+    "Pro": 1431,
+    "Proje": 1432,
+    "Sel": 1433,
+    "amasında": 1434,
+    "als": 1435,
+    "anim": 1436,
+    "animals": 1437,
+    "anlamsal": 1438,
+    "arba": 1439,
+    "arbage": 1440,
+    "architectures": 1441,
+    "açısın": 1442,
+    "açısından": 1443,
+    "aşamasında": 1444,
+    "bahar": 1445,
+    "based": 1446,
+    "betik": 1447,
+    "betikleri": 1448,
+    "cak": 1449,
+    "col": 1450,
+    "colle": 1451,
+    "collected": 1452,
+    "dis": 1453,
+    "deneyimi": 1454,
+    "display": 1455,
+    "displayed": 1456,
+    "duğ": 1457,
+    "ducing": 1458,
+    "dönüştürür": 1459,
+    "focuses": 1460,
+    "fonksiyonu": 1461,
+    "garbage": 1462,
+    "gileri": 1463,
+    "güncellendiğinde": 1464,
+    "have": 1465,
+    "hangileri": 1466,
+    "hedefler": 1467,
+    "humans": 1468,
+    "ilebilir": 1469,
+    "imize": 1470,
+    "isaniy": 1471,
+    "isaniyeler": 1472,
+    "kayıp": 1473,
+    "karşı": 1474,
+    "kaynaklarında": 1475,
+    "mor": 1476,
+    "milisaniyeler": 1477,
+    "most": 1478,
+    "mot": 1479,
+    "modeline": 1480,
+    "modelini": 1481,
+    "motorun": 1482,
+    "motorundan": 1483,
+    "one": 1484,
+    "opt": 1485,
+    "optimize": 1486,
+    "ppor": 1487,
+    "popular": 1488,
+    "producing": 1489,
+    "sayısal": 1490,
+    "sorusunu": 1491,
+    "spe": 1492,
+    "str": 1493,
+    "suppor": 1494,
+    "tanıtıl": 1495,
+    "tekrarlanabilir": 1496,
+    "tip": 1497,
+    "vektörlere": 1498,
+    "verilerim": 1499,
+    "zaman": 1500,
+    "Çıkarım": 1501,
+    "ıyor": 1502,
+    "ınızı": 1503,
+    "ığını": 1504,
+    "Bil": 1505,
+    "ader": 1506,
+    "aktara": 1507,
+    "aktarabilen": 1508,
+    "amically": 1509,
+    "amil": 1510,
+    "amily": 1511,
+    "anlamak": 1512,
+    "appli": 1513,
+    "applied": 1514,
+    "arp": 1515,
+    "arasında": 1516,
+    "arpım": 1517,
+    "bje": 1518,
+    "bro": 1519,
+    "been": 1520,
+    "belgelerin": 1521,
+    "benzerliği": 1522,
+    "bject": 1523,
+    "broader": 1524,
+    "code": 1525,
+    "cogn": 1526,
+    "cognition": 1527,
+    "ctional": 1528,
+    "ctured": 1529,
+    "cümleleri": 1530,
+    "dy": 1531,
+    "design": 1532,
+    "developm": 1533,
+    "development": 1534,
+    "değeri": 1535,
+    "dyn": 1536,
+    "dynamically": 1537,
+    "dışına": 1538,
+    "ech": 1539,
+    "emph": 1540,
+    "emphas": 1541,
+    "ented": 1542,
+    "entation": 1543,
+    "epres": 1544,
+    "epresentation": 1545,
+    "erişilebilir": 1546,
+    "eğitmek": 1547,
+    "eğitmeye": 1548,
+    "family": 1549,
+    "fun": 1550,
+    "functional": 1551,
+    "gömme": 1552,
+    "hy": 1553,
+    "iented": 1554,
+    "ilos": 1555,
+    "ilosop": 1556,
+    "ilosophy": 1557,
+    "izle": 1558,
+    "kalmadan": 1559,
+    "kendisine": 1560,
+    "kosin": 1561,
+    "kosinüs": 1562,
+    "kütüphaneleri": 1563,
+    "lük": 1564,
+    "layabilen": 1565,
+    "madığı": 1566,
+    "mantığını": 1567,
+    "meth": 1568,
+    "method": 1569,
+    "methods": 1570,
+    "ner": 1571,
+    "object": 1572,
+    "oriented": 1573,
+    "ped": 1574,
+    "paradigms": 1575,
+    "philosophy": 1576,
+    "representation": 1577,
+    "recognition": 1578,
+    "söyle": 1579,
+    "sorunuz": 1580,
+    "speech": 1581,
+    "stru": 1582,
+    "structured": 1583,
+    "supports": 1584,
+    "ty": 1585,
+    "taşı": 1586,
+    "taşıyan": 1587,
+    "typed": 1588,
+    "verilen": 1589,
+    "yım": 1590,
+    "yanıtlayabilen": 1591,
+    "yapabil": 1592,
+    "çarpım": 1593,
+    "çekli": 1594,
+    "çıkmadan": 1595,
+    "ölçekli": 1596,
+    "özelliklerini": 1597,
+    "şey": 1598,
+    "Anlamca": 1599,
+    "Ayr": 1600,
+    "Ayrı": 1601,
+    "Ayrıca": 1602,
+    "Türkiye": 1603,
+    "Vek": 1604,
+    "Vekt": 1605,
+    "Vektör": 1606,
+    "adabil": 1607,
+    "adability": 1608,
+    "ayında": 1609,
+    "bana": 1610,
+    "belgeleriniz": 1611,
+    "cur": 1612,
+    "conv": 1613,
+    "convol": 1614,
+    "convolut": 1615,
+    "convolutional": 1616,
+    "curr": 1617,
+    "current": 1618,
+    "durum": 1619,
+    "emphasiz": 1620,
+    "emphasizes": 1621,
+    "enk": 1622,
+    "eral": 1623,
+    "gh": 1624,
+    "general": 1625,
+    "göremiyorum": 1626,
+    "günlük": 1627,
+    "hafta": 1628,
+    "high": 1629,
+    "htar": 1630,
+    "ile": 1631,
+    "indeks": 1632,
+    "işler": 1633,
+    "kenti": 1634,
+    "karşılaştır": 1635,
+    "karşılaştırılır": 1636,
+    "konum": 1637,
+    "level": 1638,
+    "mul": 1639,
+    "makal": 1640,
+    "metni": 1641,
+    "more": 1642,
+    "oppo": 1643,
+    "opposed": 1644,
+    "pur": 1645,
+    "parçalarıyla": 1646,
+    "pose": 1647,
+    "purpose": 1648,
+    "renk": 1649,
+    "readability": 1650,
+    "recurrent": 1651,
+    "sayıda": 1652,
+    "seviy": 1653,
+    "such": 1654,
+    "uygun": 1655,
+    "uyun": 1656,
+    "uzayında": 1657,
+    "verilerimizle": 1658,
+    "Gör": 1659,
+    "Hay": 1660,
+    "Hoşça": 1661,
+    "Its": 1662,
+    "Sorgu": 1663,
+    "Teş": 1664,
+    "Teşekkür": 1665,
+    "anahtar": 1666,
+    "anti": 1667,
+    "antigr": 1668,
+    "antigrat": 1669,
+    "bakım": 1670,
+    "bakımından": 1671,
+    "bire": 1672,
+    "birebir": 1673,
+    "eşleş": 1674,
+    "eşleşme": 1675,
+    "eşleşmese": 1676,
+    "ica": 1677,
+    "ilerek": 1678,
+    "indekstek": 1679,
+    "indeksteki": 1680,
+    "iyet": 1681,
+    "kelimeleri": 1682,
+    "kolayca": 1683,
+    "konumlarda": 1684,
+    "multip": 1685,
+    "multiple": 1686,
+    "olmadığı": 1687,
+    "santigrat": 1688,
+    "sınız": 1689,
+    "tanı": 1690,
+    "tabanları": 1691,
+    "tanıtıldı": 1692,
+    "taraf": 1693,
+    "vektöre": 1694,
+    "veritabanları": 1695,
+    "yanıtlayabilir": 1696,
+    "yöntemle": 1697,
+    "çevrilerek": 1698,
+    "öylece": 1699,
+    "Böylece": 1700,
+    "ark": 1701,
+    "başkenti": 1702,
+    "cev": 1703,
+    "cevap": 1704,
+    "görüşürüz": 1705,
+    "hab": 1706,
+    "hangileridir": 1707,
+    "kaynar": 1708,
+    "kullanır": 1709,
+    "olduğ": 1710,
+    "olur": 1711,
+    "seçilir": 1712,
+    "tarafından": 1713,
+    "Baş": 1714,
+    "Görüş": 1715,
+    "Ha": 1716,
+    "Saf": 1717,
+    "aka": 1718,
+    "aya": 1719,
+    "boyutlu": 1720,
+    "din": 1721,
+    "does": 1722,
+    "geliştir": 1723,
+    "inize": 1724,
+    "isi": 1725,
+    "nasılsınız": 1726,
+    "üzen": 1727,
+    "Merhaba": 1728,
+    "Rica": 1729,
+    "dakik": 1730,
+    "dışı": 1731,
+    "erir": 1732,
+    "gid": 1733,
+    "imdışı": 1734,
+    "malı": 1735,
+    "mu": 1736,
+    "yapabiliyorsun": 1737,
+    "Başka": 1738,
+    "Nasıl": 1739,
+    "Selam": 1740,
+    "Yar": 1741,
+    "alık": 1742,
+    "bakın": 1743,
+    "deniz": 1744,
+    "donar": 1745,
+    "eli": 1746,
+    "erçek": 1747,
+    "gisi": 1748,
+    "her": 1749,
+    "hangisi": 1750,
+    "iyiyim": 1751,
+    "ley": 1752,
+    "plam": 1753,
+    "sim": 1754,
+    "seviyesinde": 1755,
+    "tabanından": 1756,
+    "toplam": 1757,
+    "şaka": 1758,
+    "şu": 1759,
+    "Bana": 1760,
+    "Dün": 1761,
+    "aklan": 1762,
+    "akş": 1763,
+    "alar": 1764,
+    "ası": 1765,
+    "bilme": 1766,
+    "cedir": 1767,
+    "daha": 1768,
+    "derecedir": 1769,
+    "dilerim": 1770,
+    "egen": 1771,
+    "geç": 1772,
+    "günleri": 1773,
+    "kalın": 1774,
+    "kendine": 1775,
+    "lığ": 1776,
+    "neresi": 1777,
+    "odaklan": 1778,
+    "son": 1779,
+    "sorular": 1780,
+    "yapabilirsin": 1781,
+    "yarar": 1782,
+    "zegen": 1783,
+    "üzenli": 1784,
+    "Eve": 1785,
+    "Evet": 1786,
+    "Günaydın": 1787,
+    "Haf": 1788,
+    "Ken": 1789,
+    "Yıl": 1790,
+    "aday": 1791,
+    "adaş": 1792,
+    "adayım": 1793,
+    "adaşları": 1794,
+    "akşamlar": 1795,
+    "anız": 1796,
+    "arkadaşları": 1797,
+    "bağlama": 1798,
+    "bilmece": 1799,
+    "cih": 1800,
+    "durumu": 1801,
+    "gezegen": 1802,
+    "geçiyor": 1803,
+    "görüşmek": 1804,
+    "hoşça": 1805,
+    "ku": 1806,
+    "lk": 1807,
+    "makalesinde": 1808,
+    "mev": 1809,
+    "mevsim": 1810,
+    "ney": 1811,
+    "sisteminde": 1812,
+    "tığ": 1813,
+    "tığım": 1814,
+    "uradayım": 1815,
+    "yazı": 1816,
+    "yazılmıştır": 1817,
+    "yılında": 1818,
+    "zamanlı": 1819,
+    "çalıştığım": 1820,
+    "çalışır": 1821,
+    "ğu": 1822,
+    "Şu": 1823,
+    "şur": 1824,
+    "00": 1825,
+    "Gerçek": 1826,
+    "Yılın": 1827,
+    "ayın": 1828,
+    "buradayım": 1829,
+    "erimli": 1830,
+    "haber": 1831,
+    "içerir": 1832,
+    "işe": 1833,
+    "konuda": 1834,
+    "malıyım": 1835,
+    "musun": 1836,
+    "sorularınızı": 1837,
+    "yet": 1838,
+    "yazılan": 1839,
+    "çalışıyor": 1840,
+    "ırır": 1841,
+    "Güneş": 1842,
+    "Hayır": 1843,
+    "Sen": 1844,
+    "Son": 1845,
+    "Sizin": 1846,
+    "ab": 1847,
+    "ade": 1848,
+    "bat": 1849,
+    "eh": 1850,
+    "enek": 1851,
+    "ilk": 1852,
+    "kaçtır": 1853,
+    "lerden": 1854,
+    "lik": 1855,
+    "lığı": 1856,
+    "makine": 1857,
+    "oluşur": 1858,
+    "ormal": 1859,
+    "sorar": 1860,
+    "söyley": 1861,
+    "verimli": 1862,
+    "wh": 1863,
+    "yok": 1864,
+    "yazabilirsiniz": 1865,
+    "İyiyim": 1866,
+    "100": 1867,
+    "Asis": 1868,
+    "Asistanı": 1869,
+    "Bilgi": 1870,
+    "Kend": 1871,
+    "Neler": 1872,
+    "Su": 1873,
+    "Suyun": 1874,
+    "ayıcı": 1875,
+    "ağlar": 1876,
+    "birlik": 1877,
+    "birlikte": 1878,
+    "bugünün": 1879,
+    "düzenli": 1880,
+    "dayalı": 1881,
+    "dilinde": 1882,
+    "eksi": 1883,
+    "geler": 1884,
+    "gusal": 1885,
+    "günde": 1886,
+    "inizi": 1887,
+    "internet": 1888,
+    "kaynaklı": 1889,
+    "larım": 1890,
+    "leyebilir": 1891,
+    "manız": 1892,
+    "mut": 1893,
+    "mız": 1894,
+    "neye": 1895,
+    "neresidir": 1896,
+    "olgusal": 1897,
+    "olduğunu": 1898,
+    "projede": 1899,
+    "san": 1900,
+    "siz": 1901,
+    "suyun": 1902,
+    "tür": 1903,
+    "vektörler": 1904,
+    "yapmalıyım": 1905,
+    "çevrimdışı": 1906,
+    "özet": 1907,
+    "İs": 1908,
+    "Canlı": 1909,
+    "Görüşmek": 1910,
+    "Her": 1911,
+    "Hafta": 1912,
+    "Kış": 1913,
+    "Saat": 1914,
+    "Sonbahar": 1915,
+    "Sorunuz": 1916,
+    "Yaz": 1917,
+    "Yardım": 1918,
+    "amaç": 1919,
+    "anl": 1920,
+    "anlat": 1921,
+    "armal": 1922,
+    "armalayıcı": 1923,
+    "bilgileri": 1924,
+    "bulup": 1925,
+    "değil": 1926,
+    "eksiks": 1927,
+    "eksiksiz": 1928,
+    "fen": 1929,
+    "form": 1930,
+    "formü": 1931,
+    "formülü": 1932,
+    "hangisidir": 1933,
+    "itap": 1934,
+    "key": 1935,
+    "lkbahar": 1936,
+    "lüt": 1937,
+    "lütfen": 1938,
+    "lık": 1939,
+    "noktası": 1940,
+    "sana": 1941,
+    "sarmalayıcı": 1942,
+    "selam": 1943,
+    "ter": 1944,
+    "türk": 1945,
+    "takv": 1946,
+    "takvim": 1947,
+    "tediğ": 1948,
+    "verir": 1949,
+    "verilerine": 1950,
+    "ört": 1951,
+    "İlkbahar": 1952,
+    "İn": 1953,
+    "Şubat": 1954,
+    "şeh": 1955,
+    "12": 1956,
+    "Ank": 1957,
+    "Ankara": 1958,
+    "Bel": 1959,
+    "Bilg": 1960,
+    "Bilgisayar": 1961,
+    "Cev": 1962,
+    "Cum": 1963,
+    "Cevap": 1964,
+    "Dünya": 1965,
+    "Görüşürüz": 1966,
+    "Han": 1967,
+    "How": 1968,
+    "Hangi": 1969,
+    "Hayırlı": 1970,
+    "Kendinize": 1971,
+    "Paz": 1972,
+    "Pazar": 1973,
+    "Sorular": 1974,
+    "Sorularınızı": 1975,
+    "Sorunuzu": 1976,
+    "adet": 1977,
+    "alan": 1978,
+    "arş": 1979,
+    "asistanı": 1980,
+    "açıkça": 1981,
+    "bah": 1982,
+    "belgelerinizden": 1983,
+    "bilemiyorum": 1984,
+    "biliyorsun": 1985,
+    "bugünkü": 1986,
+    "derin": 1987,
+    "dür": 1988,
+    "dakika": 1989,
+    "dayanarak": 1990,
+    "destekler": 1991,
+    "dilik": 1992,
+    "edil": 1993,
+    "gidiyor": 1994,
+    "hay": 1995,
+    "htiy": 1996,
+    "iler": 1997,
+    "imdilik": 1998,
+    "indim": 1999
+  },
+  "merges": [
+    [
+      "i",
+      "n"
+    ],
+    [
+      "e",
+      "r"
+    ],
+    [
+      "a",
+      "n"
+    ],
+    [
+      "a",
+      "r"
+    ],
+    [
+      "e",
+      "n"
+    ],
+    [
+      "i",
+      "l"
+    ],
+    [
+      "e",
+      "l"
+    ],
+    [
+      "i",
+      "r"
+    ],
+    [
+      "a",
+      "l"
+    ],
+    [
+      "o",
+      "r"
+    ],
+    [
+      "a",
+      "y"
+    ],
+    [
+      "i",
+      "s"
+    ],
+    [
+      "t",
+      "e"
+    ],
+    [
+      "m",
+      "e"
+    ],
+    [
+      "ı",
+      "n"
+    ],
+    [
+      "m",
+      "a"
+    ],
+    [
+      "i",
+      "m"
+    ],
+    [
+      "o",
+      "n"
+    ],
+    [
+      "v",
+      "e"
+    ],
+    [
+      "d",
+      "e"
+    ],
+    [
+      "a",
+      "k"
+    ],
+    [
+      "b",
+      "il"
+    ],
+    [
+      "l",
+      "e"
+    ],
+    [
+      "t",
+      "h"
+    ],
+    [
+      "ı",
+      "r"
+    ],
+    [
+      "l",
+      "ar"
+    ],
+    [
+      "e",
+      "t"
+    ],
+    [
+      "a",
+      "t"
+    ],
+    [
+      "l",
+      "er"
+    ],
+    [
+      "b",
+      "ir"
+    ],
+    [
+      "u",
+      "r"
+    ],
+    [
+      "r",
+      "o"
+    ],
+    [
+      "a",
+      "p"
+    ],
+    [
+      "e",
+      "s"
+    ],
+    [
+      "a",
+      "s"
+    ],
+    [
+      "l",
+      "an"
+    ],
+    [
+      "e",
+      "k"
+    ],
+    [
+      "e",
+      "d"
+    ],
+    [
+      "l",
+      "a"
+    ],
+    [
+      "o",
+      "d"
+    ],
+    [
+      "in",
+      "i"
+    ],
+    [
+      "te",
+      "m"
+    ],
+    [
+      "ı",
+      "l"
+    ],
+    [
+      "er",
+      "i"
+    ],
+    [
+      "ü",
+      "n"
+    ],
+    [
+      "i",
+      "t"
+    ],
+    [
+      "d",
+      "a"
+    ],
+    [
+      "g",
+      "i"
+    ],
+    [
+      "p",
+      "ro"
+    ],
+    [
+      "a",
+      "ğ"
+    ],
+    [
+      "in",
+      "g"
+    ],
+    [
+      "m",
+      "od"
+    ],
+    [
+      "mod",
+      "el"
+    ],
+    [
+      "ü",
+      "r"
+    ],
+    [
+      "u",
+      "n"
+    ],
+    [
+      "c",
+      "h"
+    ],
+    [
+      "i",
+      "y"
+    ],
+    [
+      "ı",
+      "m"
+    ],
+    [
+      "i",
+      "ş"
+    ],
+    [
+      "y",
+      "ap"
+    ],
+    [
+      "f",
+      "or"
+    ],
+    [
+      "en",
+      "t"
+    ],
+    [
+      "l",
+      "i"
+    ],
+    [
+      "u",
+      "l"
+    ],
+    [
+      "i",
+      "on"
+    ],
+    [
+      "bil",
+      "ir"
+    ],
+    [
+      "th",
+      "e"
+    ],
+    [
+      "in",
+      "e"
+    ],
+    [
+      "l",
+      "ı"
+    ],
+    [
+      "d",
+      "il"
+    ],
+    [
+      "d",
+      "an"
+    ],
+    [
+      "el",
+      "er"
+    ],
+    [
+      "o",
+      "l"
+    ],
+    [
+      "a",
+      "m"
+    ],
+    [
+      "s",
+      "e"
+    ],
+    [
+      "o",
+      "f"
+    ],
+    [
+      "c",
+      "e"
+    ],
+    [
+      "d",
+      "i"
+    ],
+    [
+      "ö",
+      "r"
+    ],
+    [
+      "an",
+      "d"
+    ],
+    [
+      "z",
+      "ek"
+    ],
+    [
+      "ı",
+      "k"
+    ],
+    [
+      "s",
+      "is"
+    ],
+    [
+      "a",
+      "ç"
+    ],
+    [
+      "u",
+      "t"
+    ],
+    [
+      "t",
+      "a"
+    ],
+    [
+      "sis",
+      "tem"
+    ],
+    [
+      "me",
+      "t"
+    ],
+    [
+      "g",
+      "ün"
+    ],
+    [
+      "i",
+      "z"
+    ],
+    [
+      "an",
+      "ı"
+    ],
+    [
+      "ğ",
+      "r"
+    ],
+    [
+      "en",
+      "me"
+    ],
+    [
+      "P",
+      "y"
+    ],
+    [
+      "n",
+      "e"
+    ],
+    [
+      "met",
+      "in"
+    ],
+    [
+      "i",
+      "ç"
+    ],
+    [
+      "ö",
+      "z"
+    ],
+    [
+      "d",
+      "ir"
+    ],
+    [
+      "b",
+      "el"
+    ],
+    [
+      "ma",
+      "s"
+    ],
+    [
+      "ul",
+      "lan"
+    ],
+    [
+      "er",
+      "il"
+    ],
+    [
+      "o",
+      "k"
+    ],
+    [
+      "an",
+      "s"
+    ],
+    [
+      "d",
+      "en"
+    ],
+    [
+      "d",
+      "o"
+    ],
+    [
+      "g",
+      "e"
+    ],
+    [
+      "ö",
+      "ğr"
+    ],
+    [
+      "c",
+      "o"
+    ],
+    [
+      "öğr",
+      "enme"
+    ],
+    [
+      "m",
+      "er"
+    ],
+    [
+      "u",
+      "m"
+    ],
+    [
+      "ı",
+      "ş"
+    ],
+    [
+      "yap",
+      "ay"
+    ],
+    [
+      "a",
+      "z"
+    ],
+    [
+      "g",
+      "r"
+    ],
+    [
+      "B",
+      "u"
+    ],
+    [
+      "ans",
+      "for"
+    ],
+    [
+      "ansfor",
+      "mer"
+    ],
+    [
+      "ler",
+      "in"
+    ],
+    [
+      "r",
+      "ansformer"
+    ],
+    [
+      "i",
+      "c"
+    ],
+    [
+      "k",
+      "ullan"
+    ],
+    [
+      "y",
+      "er"
+    ],
+    [
+      "lar",
+      "ı"
+    ],
+    [
+      "bil",
+      "gi"
+    ],
+    [
+      "e",
+      "v"
+    ],
+    [
+      "la",
+      "m"
+    ],
+    [
+      "in",
+      "de"
+    ],
+    [
+      "b",
+      "ağ"
+    ],
+    [
+      "Py",
+      "th"
+    ],
+    [
+      "Pyth",
+      "on"
+    ],
+    [
+      "A",
+      "I"
+    ],
+    [
+      "c",
+      "t"
+    ],
+    [
+      "l",
+      "ay"
+    ],
+    [
+      "s",
+      "or"
+    ],
+    [
+      "ç",
+      "al"
+    ],
+    [
+      "R",
+      "A"
+    ],
+    [
+      "ar",
+      "n"
+    ],
+    [
+      "co",
+      "m"
+    ],
+    [
+      "RA",
+      "G"
+    ],
+    [
+      "t",
+      "ü"
+    ],
+    [
+      "ur",
+      "al"
+    ],
+    [
+      "le",
+      "arn"
+    ],
+    [
+      "s",
+      "in"
+    ],
+    [
+      "T",
+      "ransformer"
+    ],
+    [
+      "d",
+      "ır"
+    ],
+    [
+      "h",
+      "an"
+    ],
+    [
+      "s",
+      "i"
+    ],
+    [
+      "ğ",
+      "it"
+    ],
+    [
+      "as",
+      "ıl"
+    ],
+    [
+      "te",
+      "k"
+    ],
+    [
+      "v",
+      "eril"
+    ],
+    [
+      "ın",
+      "da"
+    ],
+    [
+      "ın",
+      "ı"
+    ],
+    [
+      "gr",
+      "am"
+    ],
+    [
+      "pro",
+      "gram"
+    ],
+    [
+      "zek",
+      "a"
+    ],
+    [
+      "iç",
+      "in"
+    ],
+    [
+      "ö",
+      "n"
+    ],
+    [
+      "ü",
+      "m"
+    ],
+    [
+      "n",
+      "asıl"
+    ],
+    [
+      "p",
+      "ar"
+    ],
+    [
+      "ş",
+      "t"
+    ],
+    [
+      "a",
+      "bilir"
+    ],
+    [
+      "com",
+      "p"
+    ],
+    [
+      "k",
+      "aç"
+    ],
+    [
+      "bel",
+      "g"
+    ],
+    [
+      "g",
+      "en"
+    ],
+    [
+      "r",
+      "i"
+    ],
+    [
+      "s",
+      "ay"
+    ],
+    [
+      "n",
+      "ed"
+    ],
+    [
+      "e",
+      "ğit"
+    ],
+    [
+      "ar",
+      "ak"
+    ],
+    [
+      "d",
+      "u"
+    ],
+    [
+      "g",
+      "ü"
+    ],
+    [
+      "lar",
+      "ak"
+    ],
+    [
+      "anı",
+      "t"
+    ],
+    [
+      "h",
+      "e"
+    ],
+    [
+      "o",
+      "larak"
+    ],
+    [
+      "et",
+      "ri"
+    ],
+    [
+      "ta",
+      "b"
+    ],
+    [
+      "h",
+      "a"
+    ],
+    [
+      "lerin",
+      "in"
+    ],
+    [
+      "t",
+      "o"
+    ],
+    [
+      "ay",
+      "n"
+    ],
+    [
+      "s",
+      "a"
+    ],
+    [
+      "ın",
+      "a"
+    ],
+    [
+      "k",
+      "at"
+    ],
+    [
+      "la",
+      "ma"
+    ],
+    [
+      "ar",
+      "ı"
+    ],
+    [
+      "learn",
+      "ing"
+    ],
+    [
+      "t",
+      "an"
+    ],
+    [
+      "i",
+      "th"
+    ],
+    [
+      "an",
+      "lı"
+    ],
+    [
+      "ar",
+      "a"
+    ],
+    [
+      "b",
+      "u"
+    ],
+    [
+      "el",
+      "im"
+    ],
+    [
+      "s",
+      "un"
+    ],
+    [
+      "L",
+      "M"
+    ],
+    [
+      "M",
+      "ini"
+    ],
+    [
+      "belg",
+      "eler"
+    ],
+    [
+      "d",
+      "ım"
+    ],
+    [
+      "g",
+      "u"
+    ],
+    [
+      "l",
+      "y"
+    ],
+    [
+      "ar",
+      "ch"
+    ],
+    [
+      "bil",
+      "g"
+    ],
+    [
+      "k",
+      "t"
+    ],
+    [
+      "ler",
+      "i"
+    ],
+    [
+      "u",
+      "y"
+    ],
+    [
+      "er",
+      "e"
+    ],
+    [
+      "i",
+      "k"
+    ],
+    [
+      "y",
+      "an"
+    ],
+    [
+      "c",
+      "ı"
+    ],
+    [
+      "mas",
+      "ı"
+    ],
+    [
+      "th",
+      "at"
+    ],
+    [
+      "tem",
+      "el"
+    ],
+    [
+      "y",
+      "anıt"
+    ],
+    [
+      "k",
+      "en"
+    ],
+    [
+      "k",
+      "s"
+    ],
+    [
+      "s",
+      "ağ"
+    ],
+    [
+      "te",
+      "d"
+    ],
+    [
+      "g",
+      "ör"
+    ],
+    [
+      "iş",
+      "le"
+    ],
+    [
+      "ma",
+      "dan"
+    ],
+    [
+      "k",
+      "i"
+    ],
+    [
+      "b",
+      "a"
+    ],
+    [
+      "bağ",
+      "lam"
+    ],
+    [
+      "e",
+      "y"
+    ],
+    [
+      "AI",
+      "S"
+    ],
+    [
+      "AIS",
+      "S"
+    ],
+    [
+      "F",
+      "AISS"
+    ],
+    [
+      "etri",
+      "ev"
+    ],
+    [
+      "etriev",
+      "al"
+    ],
+    [
+      "ün",
+      "tü"
+    ],
+    [
+      "er",
+      "at"
+    ],
+    [
+      "b",
+      "i"
+    ],
+    [
+      "me",
+      "s"
+    ],
+    [
+      "an",
+      "ın"
+    ],
+    [
+      "gi",
+      "bi"
+    ],
+    [
+      "eri",
+      "ş"
+    ],
+    [
+      "n",
+      "et"
+    ],
+    [
+      "v",
+      "eri"
+    ],
+    [
+      "b",
+      "e"
+    ],
+    [
+      "e",
+      "p"
+    ],
+    [
+      "me",
+      "k"
+    ],
+    [
+      "el",
+      "eri"
+    ],
+    [
+      "w",
+      "ith"
+    ],
+    [
+      "y",
+      "ön"
+    ],
+    [
+      "c",
+      "a"
+    ],
+    [
+      "i",
+      "f"
+    ],
+    [
+      "l",
+      "u"
+    ],
+    [
+      "m",
+      "ı"
+    ],
+    [
+      "er",
+      "in"
+    ],
+    [
+      "yön",
+      "tem"
+    ],
+    [
+      "c",
+      "es"
+    ],
+    [
+      "de",
+      "ki"
+    ],
+    [
+      "t",
+      "ir"
+    ],
+    [
+      "dil",
+      "i"
+    ],
+    [
+      "yer",
+      "el"
+    ],
+    [
+      "an",
+      "a"
+    ],
+    [
+      "ıl",
+      "ır"
+    ],
+    [
+      "s",
+      "al"
+    ],
+    [
+      "s",
+      "t"
+    ],
+    [
+      "d",
+      "ak"
+    ],
+    [
+      "m",
+      "en"
+    ],
+    [
+      "y",
+      "a"
+    ],
+    [
+      "ç",
+      "ok"
+    ],
+    [
+      "çal",
+      "ış"
+    ],
+    [
+      "ü",
+      "k"
+    ],
+    [
+      "er",
+      "im"
+    ],
+    [
+      "ini",
+      "z"
+    ],
+    [
+      "it",
+      "y"
+    ],
+    [
+      "m",
+      "im"
+    ],
+    [
+      "v",
+      "ar"
+    ],
+    [
+      "y",
+      "ak"
+    ],
+    [
+      "d",
+      "ing"
+    ],
+    [
+      "e",
+      "m"
+    ],
+    [
+      "y",
+      "ar"
+    ],
+    [
+      "on",
+      "u"
+    ],
+    [
+      "kt",
+      "ör"
+    ],
+    [
+      "s",
+      "u"
+    ],
+    [
+      "ve",
+      "ktör"
+    ],
+    [
+      "y",
+      "az"
+    ],
+    [
+      "a",
+      "ge"
+    ],
+    [
+      "e",
+      "ş"
+    ],
+    [
+      "gu",
+      "age"
+    ],
+    [
+      "lan",
+      "guage"
+    ],
+    [
+      "mim",
+      "ar"
+    ],
+    [
+      "o",
+      "p"
+    ],
+    [
+      "s",
+      "ı"
+    ],
+    [
+      "in",
+      "s"
+    ],
+    [
+      "iy",
+      "or"
+    ],
+    [
+      "ic",
+      "i"
+    ],
+    [
+      "w",
+      "or"
+    ],
+    [
+      "al",
+      "t"
+    ],
+    [
+      "es",
+      "inde"
+    ],
+    [
+      "h",
+      "t"
+    ],
+    [
+      "aç",
+      "ık"
+    ],
+    [
+      "k",
+      "ar"
+    ],
+    [
+      "mimar",
+      "is"
+    ],
+    [
+      "ay",
+      "ar"
+    ],
+    [
+      "c",
+      "üm"
+    ],
+    [
+      "im",
+      "i"
+    ],
+    [
+      "is",
+      "ayar"
+    ],
+    [
+      "is",
+      "e"
+    ],
+    [
+      "Y",
+      "ap"
+    ],
+    [
+      "iz",
+      "e"
+    ],
+    [
+      "ol",
+      "u"
+    ],
+    [
+      "D",
+      "erin"
+    ],
+    [
+      "ür",
+      "et"
+    ],
+    [
+      "par",
+      "çal"
+    ],
+    [
+      "s",
+      "es"
+    ],
+    [
+      "ak",
+      "ıl"
+    ],
+    [
+      "b",
+      "o"
+    ],
+    [
+      "k",
+      "ü"
+    ],
+    [
+      "Yap",
+      "ay"
+    ],
+    [
+      "han",
+      "gi"
+    ],
+    [
+      "pro",
+      "j"
+    ],
+    [
+      "sin",
+      "ir"
+    ],
+    [
+      "an",
+      "t"
+    ],
+    [
+      "g",
+      "il"
+    ],
+    [
+      "model",
+      "lerinin"
+    ],
+    [
+      "ür",
+      "ü"
+    ],
+    [
+      "al",
+      "ı"
+    ],
+    [
+      "dak",
+      "i"
+    ],
+    [
+      "e",
+      "bilir"
+    ],
+    [
+      "in",
+      "t"
+    ],
+    [
+      "bilg",
+      "isayar"
+    ],
+    [
+      "g",
+      "el"
+    ],
+    [
+      "k",
+      "elim"
+    ],
+    [
+      "l",
+      "en"
+    ],
+    [
+      "ma",
+      "t"
+    ],
+    [
+      "sor",
+      "u"
+    ],
+    [
+      "el",
+      "li"
+    ],
+    [
+      "en",
+      "in"
+    ],
+    [
+      "iy",
+      "le"
+    ],
+    [
+      "y",
+      "en"
+    ],
+    [
+      "ct",
+      "or"
+    ],
+    [
+      "ve",
+      "ctor"
+    ],
+    [
+      "ür",
+      "k"
+    ],
+    [
+      "c",
+      "lu"
+    ],
+    [
+      "vector",
+      "s"
+    ],
+    [
+      "ü",
+      "ş"
+    ],
+    [
+      "ğ",
+      "i"
+    ],
+    [
+      "ned",
+      "ir"
+    ],
+    [
+      "s",
+      "ın"
+    ],
+    [
+      "ç",
+      "ık"
+    ],
+    [
+      "ağ",
+      "ları"
+    ],
+    [
+      "de",
+      "ğ"
+    ],
+    [
+      "ve",
+      "ya"
+    ],
+    [
+      "ara",
+      "ma"
+    ],
+    [
+      "m",
+      "iş"
+    ],
+    [
+      "se",
+      "arch"
+    ],
+    [
+      "c",
+      "on"
+    ],
+    [
+      "il",
+      "miş"
+    ],
+    [
+      "k",
+      "al"
+    ],
+    [
+      "olu",
+      "şt"
+    ],
+    [
+      "oluşt",
+      "ur"
+    ],
+    [
+      "y",
+      "or"
+    ],
+    [
+      "T",
+      "he"
+    ],
+    [
+      "d",
+      "ay"
+    ],
+    [
+      "ler",
+      "e"
+    ],
+    [
+      "en",
+      "ce"
+    ],
+    [
+      "k",
+      "ur"
+    ],
+    [
+      "kullan",
+      "arak"
+    ],
+    [
+      "lar",
+      "ın"
+    ],
+    [
+      "ent",
+      "ion"
+    ],
+    [
+      "ned",
+      "en"
+    ],
+    [
+      "T",
+      "ürk"
+    ],
+    [
+      "b",
+      "ul"
+    ],
+    [
+      "ces",
+      "s"
+    ],
+    [
+      "ken",
+      "di"
+    ],
+    [
+      "l",
+      "ü"
+    ],
+    [
+      "t",
+      "ention"
+    ],
+    [
+      "den",
+      "ey"
+    ],
+    [
+      "k",
+      "ayn"
+    ],
+    [
+      "al",
+      "ly"
+    ],
+    [
+      "ne",
+      "ural"
+    ],
+    [
+      "net",
+      "wor"
+    ],
+    [
+      "networ",
+      "ks"
+    ],
+    [
+      "yar",
+      "dım"
+    ],
+    [
+      "zek",
+      "anın"
+    ],
+    [
+      "Transformer",
+      "s"
+    ],
+    [
+      "e",
+      "de"
+    ],
+    [
+      "iy",
+      "i"
+    ],
+    [
+      "k",
+      "ür"
+    ],
+    [
+      "un",
+      "u"
+    ],
+    [
+      "yan",
+      "i"
+    ],
+    [
+      "ar",
+      "as"
+    ],
+    [
+      "b",
+      "y"
+    ],
+    [
+      "kat",
+      "m"
+    ],
+    [
+      "Mini",
+      "LM"
+    ],
+    [
+      "ayn",
+      "ı"
+    ],
+    [
+      "di",
+      "k"
+    ],
+    [
+      "ek",
+      "kür"
+    ],
+    [
+      "lay",
+      "abilir"
+    ],
+    [
+      "metin",
+      "ler"
+    ],
+    [
+      "sağ",
+      "lay"
+    ],
+    [
+      "sistem",
+      "i"
+    ],
+    [
+      "b",
+      "et"
+    ],
+    [
+      "g",
+      "ht"
+    ],
+    [
+      "gör",
+      "üntü"
+    ],
+    [
+      "katm",
+      "anlı"
+    ],
+    [
+      "proj",
+      "enin"
+    ],
+    [
+      "say",
+      "esinde"
+    ],
+    [
+      "t",
+      "ak"
+    ],
+    [
+      "ut",
+      "er"
+    ],
+    [
+      "comp",
+      "uter"
+    ],
+    [
+      "il",
+      "en"
+    ],
+    [
+      "kelim",
+      "eler"
+    ],
+    [
+      "m",
+      "s"
+    ],
+    [
+      "veril",
+      "eri"
+    ],
+    [
+      "I",
+      "t"
+    ],
+    [
+      "kar",
+      "ma"
+    ],
+    [
+      "karma",
+      "ş"
+    ],
+    [
+      "karmaş",
+      "ık"
+    ],
+    [
+      "o",
+      "lan"
+    ],
+    [
+      "ı",
+      "z"
+    ],
+    [
+      "at",
+      "ural"
+    ],
+    [
+      "dik",
+      "kat"
+    ],
+    [
+      "eriş",
+      "im"
+    ],
+    [
+      "g",
+      "n"
+    ],
+    [
+      "n",
+      "atural"
+    ],
+    [
+      "se",
+      "ç"
+    ],
+    [
+      "w",
+      "r"
+    ],
+    [
+      "L",
+      "LM"
+    ],
+    [
+      "a",
+      "bil"
+    ],
+    [
+      "d",
+      "ış"
+    ],
+    [
+      "er",
+      "ek"
+    ],
+    [
+      "lan",
+      "ması"
+    ],
+    [
+      "d",
+      "ur"
+    ],
+    [
+      "gel",
+      "iş"
+    ],
+    [
+      "o",
+      "la"
+    ],
+    [
+      "tek",
+      "n"
+    ],
+    [
+      "öğrenme",
+      "si"
+    ],
+    [
+      "ı",
+      "ğ"
+    ],
+    [
+      "elli",
+      "gen"
+    ],
+    [
+      "elligen",
+      "ce"
+    ],
+    [
+      "il",
+      "eri"
+    ],
+    [
+      "ins",
+      "an"
+    ],
+    [
+      "mes",
+      "ini"
+    ],
+    [
+      "sağlay",
+      "an"
+    ],
+    [
+      "y",
+      "ıl"
+    ],
+    [
+      "Py",
+      "T"
+    ],
+    [
+      "PyT",
+      "or"
+    ],
+    [
+      "PyTor",
+      "ch"
+    ],
+    [
+      "f",
+      "ır"
+    ],
+    [
+      "fır",
+      "dan"
+    ],
+    [
+      "ol",
+      "o"
+    ],
+    [
+      "r",
+      "ar"
+    ],
+    [
+      "r",
+      "e"
+    ],
+    [
+      "veril",
+      "er"
+    ],
+    [
+      "y",
+      "ürü"
+    ],
+    [
+      "yaz",
+      "ıl"
+    ],
+    [
+      "a",
+      "d"
+    ],
+    [
+      "b",
+      "le"
+    ],
+    [
+      "il",
+      "ir"
+    ],
+    [
+      "is",
+      "k"
+    ],
+    [
+      "olo",
+      "j"
+    ],
+    [
+      "sı",
+      "fırdan"
+    ],
+    [
+      "yak",
+      "ın"
+    ],
+    [
+      "ç",
+      "e"
+    ],
+    [
+      "G",
+      "en"
+    ],
+    [
+      "ar",
+      "ity"
+    ],
+    [
+      "c",
+      "um"
+    ],
+    [
+      "il",
+      "arity"
+    ],
+    [
+      "im",
+      "ilarity"
+    ],
+    [
+      "men",
+      "ted"
+    ],
+    [
+      "model",
+      "i"
+    ],
+    [
+      "ın",
+      "dan"
+    ],
+    [
+      "ını",
+      "z"
+    ],
+    [
+      "A",
+      "u"
+    ],
+    [
+      "Au",
+      "g"
+    ],
+    [
+      "Aug",
+      "mented"
+    ],
+    [
+      "B",
+      "ir"
+    ],
+    [
+      "Gen",
+      "erat"
+    ],
+    [
+      "Generat",
+      "ion"
+    ],
+    [
+      "R",
+      "etrieval"
+    ],
+    [
+      "e",
+      "x"
+    ],
+    [
+      "il",
+      "gil"
+    ],
+    [
+      "kullan",
+      "ılır"
+    ],
+    [
+      "oloj",
+      "i"
+    ],
+    [
+      "q",
+      "u"
+    ],
+    [
+      "N",
+      "e"
+    ],
+    [
+      "ay",
+      "ı"
+    ],
+    [
+      "be",
+      "c"
+    ],
+    [
+      "cum",
+      "ent"
+    ],
+    [
+      "do",
+      "cument"
+    ],
+    [
+      "kü",
+      "tü"
+    ],
+    [
+      "kütü",
+      "p"
+    ],
+    [
+      "kütüp",
+      "han"
+    ],
+    [
+      "yardım",
+      "cı"
+    ],
+    [
+      "ç",
+      "ek"
+    ],
+    [
+      "ö",
+      "l"
+    ],
+    [
+      "as",
+      "ına"
+    ],
+    [
+      "bec",
+      "eril"
+    ],
+    [
+      "beceril",
+      "er"
+    ],
+    [
+      "ble",
+      "m"
+    ],
+    [
+      "c",
+      "el"
+    ],
+    [
+      "comp",
+      "on"
+    ],
+    [
+      "compon",
+      "ent"
+    ],
+    [
+      "do",
+      "ğ"
+    ],
+    [
+      "document",
+      "s"
+    ],
+    [
+      "doğ",
+      "al"
+    ],
+    [
+      "f",
+      "f"
+    ],
+    [
+      "ilgil",
+      "i"
+    ],
+    [
+      "l",
+      "it"
+    ],
+    [
+      "m",
+      "ing"
+    ],
+    [
+      "n",
+      "eler"
+    ],
+    [
+      "pro",
+      "blem"
+    ],
+    [
+      "program",
+      "ming"
+    ],
+    [
+      "s",
+      "y"
+    ],
+    [
+      "sistem",
+      "lerinin"
+    ],
+    [
+      "z",
+      "en"
+    ],
+    [
+      "zek",
+      "asına"
+    ],
+    [
+      "ç",
+      "öz"
+    ],
+    [
+      "al",
+      "anı"
+    ],
+    [
+      "alanı",
+      "dır"
+    ],
+    [
+      "an",
+      "da"
+    ],
+    [
+      "at",
+      "a"
+    ],
+    [
+      "b",
+      "as"
+    ],
+    [
+      "beceriler",
+      "ini"
+    ],
+    [
+      "es",
+      "i"
+    ],
+    [
+      "et",
+      "mesini"
+    ],
+    [
+      "ion",
+      "al"
+    ],
+    [
+      "ma",
+      "k"
+    ],
+    [
+      "mimaris",
+      "i"
+    ],
+    [
+      "r",
+      "etrieval"
+    ],
+    [
+      "t",
+      "me"
+    ],
+    [
+      "tak",
+      "lit"
+    ],
+    [
+      "tekn",
+      "oloji"
+    ],
+    [
+      "yürü",
+      "tme"
+    ],
+    [
+      "çöz",
+      "me"
+    ],
+    [
+      "öz",
+      "gü"
+    ],
+    [
+      "ar",
+      "t"
+    ],
+    [
+      "d",
+      "ata"
+    ],
+    [
+      "f",
+      "ro"
+    ],
+    [
+      "for",
+      "mat"
+    ],
+    [
+      "format",
+      "ion"
+    ],
+    [
+      "fro",
+      "m"
+    ],
+    [
+      "gen",
+      "erat"
+    ],
+    [
+      "gün",
+      "cel"
+    ],
+    [
+      "in",
+      "formation"
+    ],
+    [
+      "in",
+      "p"
+    ],
+    [
+      "inp",
+      "ut"
+    ],
+    [
+      "iş",
+      "k"
+    ],
+    [
+      "len",
+      "dir"
+    ],
+    [
+      "sa",
+      "at"
+    ],
+    [
+      "an",
+      "iz"
+    ],
+    [
+      "bilir",
+      "im"
+    ],
+    [
+      "generat",
+      "or"
+    ],
+    [
+      "mek",
+      "aniz"
+    ],
+    [
+      "M",
+      "ak"
+    ],
+    [
+      "Mak",
+      "ine"
+    ],
+    [
+      "il",
+      "işk"
+    ],
+    [
+      "ilmiş",
+      "tir"
+    ],
+    [
+      "parçal",
+      "arı"
+    ],
+    [
+      "s",
+      "ed"
+    ],
+    [
+      "yöntem",
+      "dir"
+    ],
+    [
+      "ğ",
+      "un"
+    ],
+    [
+      "A",
+      "r"
+    ],
+    [
+      "Türk",
+      "çe"
+    ],
+    [
+      "d",
+      "alı"
+    ],
+    [
+      "deney",
+      "im"
+    ],
+    [
+      "değ",
+      "er"
+    ],
+    [
+      "değer",
+      "lendir"
+    ],
+    [
+      "er",
+      "n"
+    ],
+    [
+      "ex",
+      "p"
+    ],
+    [
+      "gü",
+      "ç"
+    ],
+    [
+      "işle",
+      "yen"
+    ],
+    [
+      "program",
+      "lama"
+    ],
+    [
+      "clu",
+      "ding"
+    ],
+    [
+      "cüm",
+      "le"
+    ],
+    [
+      "güç",
+      "lü"
+    ],
+    [
+      "in",
+      "cluding"
+    ],
+    [
+      "r",
+      "es"
+    ],
+    [
+      "te",
+      "ş"
+    ],
+    [
+      "teş",
+      "ekkür"
+    ],
+    [
+      "ın",
+      "daki"
+    ],
+    [
+      "A",
+      "l"
+    ],
+    [
+      "M",
+      "od"
+    ],
+    [
+      "Mod",
+      "ern"
+    ],
+    [
+      "aras",
+      "ındaki"
+    ],
+    [
+      "b",
+      "en"
+    ],
+    [
+      "bağlam",
+      "sal"
+    ],
+    [
+      "c",
+      "u"
+    ],
+    [
+      "ilişk",
+      "ileri"
+    ],
+    [
+      "kayn",
+      "ak"
+    ],
+    [
+      "mas",
+      "ına"
+    ],
+    [
+      "mekaniz",
+      "ması"
+    ],
+    [
+      "mes",
+      "ine"
+    ],
+    [
+      "n",
+      "t"
+    ],
+    [
+      "r",
+      "a"
+    ],
+    [
+      "s",
+      "et"
+    ],
+    [
+      "sistem",
+      "lerin"
+    ],
+    [
+      "temel",
+      "ini"
+    ],
+    [
+      "x",
+      "t"
+    ],
+    [
+      "a",
+      "ch"
+    ],
+    [
+      "ap",
+      "p"
+    ],
+    [
+      "ar",
+      "lı"
+    ],
+    [
+      "bul",
+      "ur"
+    ],
+    [
+      "de",
+      "ep"
+    ],
+    [
+      "du",
+      "c"
+    ],
+    [
+      "ed",
+      "erim"
+    ],
+    [
+      "eğit",
+      "im"
+    ],
+    [
+      "t",
+      "ut"
+    ],
+    [
+      "te",
+      "bilir"
+    ],
+    [
+      "te",
+      "xt"
+    ],
+    [
+      "çık",
+      "ar"
+    ],
+    [
+      "ür",
+      "e"
+    ],
+    [
+      "ın",
+      "ın"
+    ],
+    [
+      "Al",
+      "l"
+    ],
+    [
+      "a",
+      "ma"
+    ],
+    [
+      "cümle",
+      "deki"
+    ],
+    [
+      "day",
+      "an"
+    ],
+    [
+      "ent",
+      "ence"
+    ],
+    [
+      "i",
+      "h"
+    ],
+    [
+      "oluştur",
+      "an"
+    ],
+    [
+      "s",
+      "o"
+    ],
+    [
+      "w",
+      "e"
+    ],
+    [
+      "üre",
+      "tebilir"
+    ],
+    [
+      "an",
+      "layabilir"
+    ],
+    [
+      "deneyim",
+      "le"
+    ],
+    [
+      "değerlendir",
+      "ebilir"
+    ],
+    [
+      "in",
+      "in"
+    ],
+    [
+      "k",
+      "ural"
+    ],
+    [
+      "pro",
+      "cess"
+    ],
+    [
+      "b",
+      "ü"
+    ],
+    [
+      "belgeler",
+      "de"
+    ],
+    [
+      "de",
+      "s"
+    ],
+    [
+      "f",
+      "i"
+    ],
+    [
+      "geliş",
+      "mesine"
+    ],
+    [
+      "i",
+      "ght"
+    ],
+    [
+      "in",
+      "es"
+    ],
+    [
+      "kural",
+      "lar"
+    ],
+    [
+      "model",
+      "s"
+    ],
+    [
+      "olan",
+      "ak"
+    ],
+    [
+      "s",
+      "onu"
+    ],
+    [
+      "tab",
+      "an"
+    ],
+    [
+      "tan",
+      "ır"
+    ],
+    [
+      "tut",
+      "arlı"
+    ],
+    [
+      "veriler",
+      "den"
+    ],
+    [
+      "we",
+      "ight"
+    ],
+    [
+      "yazıl",
+      "madan"
+    ],
+    [
+      "çıkar",
+      "masına"
+    ],
+    [
+      "ör",
+      "üntü"
+    ],
+    [
+      "d",
+      "s"
+    ],
+    [
+      "la",
+      "ş"
+    ],
+    [
+      "ma",
+      "ch"
+    ],
+    [
+      "say",
+      "ede"
+    ],
+    [
+      "seç",
+      "ilmiştir"
+    ],
+    [
+      "si",
+      "gn"
+    ],
+    [
+      "sistem",
+      "leri"
+    ],
+    [
+      "sun",
+      "u"
+    ],
+    [
+      "t",
+      "s"
+    ],
+    [
+      "al",
+      "mı"
+    ],
+    [
+      "almı",
+      "yor"
+    ],
+    [
+      "elim",
+      "deki"
+    ],
+    [
+      "er",
+      "li"
+    ],
+    [
+      "fi",
+      "el"
+    ],
+    [
+      "g",
+      "erek"
+    ],
+    [
+      "h",
+      "ar"
+    ],
+    [
+      "it",
+      "ion"
+    ],
+    [
+      "ola",
+      "bilirim"
+    ],
+    [
+      "par",
+      "t"
+    ],
+    [
+      "process",
+      "ing"
+    ],
+    [
+      "ent",
+      "i"
+    ],
+    [
+      "fiel",
+      "ds"
+    ],
+    [
+      "is",
+      "ion"
+    ],
+    [
+      "kullan",
+      "ı"
+    ],
+    [
+      "t",
+      "ır"
+    ],
+    [
+      "v",
+      "ision"
+    ],
+    [
+      "Y",
+      "o"
+    ],
+    [
+      "as",
+      "y"
+    ],
+    [
+      "b",
+      "ak"
+    ],
+    [
+      "b",
+      "ed"
+    ],
+    [
+      "bed",
+      "ding"
+    ],
+    [
+      "ben",
+      "z"
+    ],
+    [
+      "bu",
+      "gün"
+    ],
+    [
+      "he",
+      "m"
+    ],
+    [
+      "iyor",
+      "um"
+    ],
+    [
+      "işle",
+      "me"
+    ],
+    [
+      "n",
+      "i"
+    ],
+    [
+      "s",
+      "öz"
+    ],
+    [
+      "asy",
+      "on"
+    ],
+    [
+      "h",
+      "bet"
+    ],
+    [
+      "ha",
+      "f"
+    ],
+    [
+      "var",
+      "dır"
+    ],
+    [
+      "üret",
+      "ir"
+    ],
+    [
+      "A",
+      "t"
+    ],
+    [
+      "At",
+      "tention"
+    ],
+    [
+      "Ne",
+      "ed"
+    ],
+    [
+      "Yo",
+      "u"
+    ],
+    [
+      "al",
+      "arı"
+    ],
+    [
+      "benz",
+      "erli"
+    ],
+    [
+      "bil",
+      "eş"
+    ],
+    [
+      "bileş",
+      "en"
+    ],
+    [
+      "ic",
+      "ally"
+    ],
+    [
+      "m",
+      "o"
+    ],
+    [
+      "ş",
+      "ı"
+    ],
+    [
+      "V",
+      "as"
+    ],
+    [
+      "Vas",
+      "w"
+    ],
+    [
+      "Vasw",
+      "an"
+    ],
+    [
+      "Vaswan",
+      "i"
+    ],
+    [
+      "di",
+      "z"
+    ],
+    [
+      "diz",
+      "imi"
+    ],
+    [
+      "ek",
+      "o"
+    ],
+    [
+      "eko",
+      "sistemi"
+    ],
+    [
+      "g",
+      "in"
+    ],
+    [
+      "ici",
+      "al"
+    ],
+    [
+      "if",
+      "icial"
+    ],
+    [
+      "int",
+      "elligence"
+    ],
+    [
+      "neden",
+      "iyle"
+    ],
+    [
+      "or",
+      "un"
+    ],
+    [
+      "s",
+      "el"
+    ],
+    [
+      "söz",
+      "dizimi"
+    ],
+    [
+      "zen",
+      "gin"
+    ],
+    [
+      "0",
+      "1"
+    ],
+    [
+      "01",
+      "7"
+    ],
+    [
+      "2",
+      "017"
+    ],
+    [
+      "a",
+      "dım"
+    ],
+    [
+      "c",
+      "ının"
+    ],
+    [
+      "ed",
+      "ilir"
+    ],
+    [
+      "h",
+      "al"
+    ],
+    [
+      "t",
+      "ı"
+    ],
+    [
+      "tan",
+      "ım"
+    ],
+    [
+      "L",
+      "6"
+    ],
+    [
+      "belgeler",
+      "e"
+    ],
+    [
+      "d",
+      "ere"
+    ],
+    [
+      "d",
+      "on"
+    ],
+    [
+      "et",
+      "ir"
+    ],
+    [
+      "g",
+      "etir"
+    ],
+    [
+      "k",
+      "on"
+    ],
+    [
+      "mas",
+      "ını"
+    ],
+    [
+      "o",
+      "w"
+    ],
+    [
+      "r",
+      "et"
+    ],
+    [
+      "r",
+      "isk"
+    ],
+    [
+      "s",
+      "ize"
+    ],
+    [
+      "sağ",
+      "lar"
+    ],
+    [
+      "so",
+      "hbet"
+    ],
+    [
+      "u",
+      "p"
+    ],
+    [
+      "v",
+      "2"
+    ],
+    [
+      "ü",
+      "z"
+    ],
+    [
+      "şt",
+      "ir"
+    ],
+    [
+      "eğit",
+      "il"
+    ],
+    [
+      "hal",
+      "ü"
+    ],
+    [
+      "halü",
+      "sin"
+    ],
+    [
+      "iş",
+      "im"
+    ],
+    [
+      "ken",
+      "d"
+    ],
+    [
+      "m",
+      "ant"
+    ],
+    [
+      "me",
+      "si"
+    ],
+    [
+      "ne",
+      "m"
+    ],
+    [
+      "ö",
+      "nem"
+    ],
+    [
+      "ö",
+      "y"
+    ],
+    [
+      "D",
+      "e"
+    ],
+    [
+      "al",
+      "ır"
+    ],
+    [
+      "an",
+      "lam"
+    ],
+    [
+      "az",
+      "ır"
+    ],
+    [
+      "bil",
+      "e"
+    ],
+    [
+      "ct",
+      "ur"
+    ],
+    [
+      "cüm",
+      "l"
+    ],
+    [
+      "d",
+      "im"
+    ],
+    [
+      "halüsin",
+      "asyon"
+    ],
+    [
+      "kullanı",
+      "cının"
+    ],
+    [
+      "laş",
+      "ım"
+    ],
+    [
+      "le",
+      "ştir"
+    ],
+    [
+      "r",
+      "işim"
+    ],
+    [
+      "risk",
+      "ini"
+    ],
+    [
+      "sa",
+      "de"
+    ],
+    [
+      "say",
+      "ı"
+    ],
+    [
+      "sun",
+      "ar"
+    ],
+    [
+      "v",
+      "er"
+    ],
+    [
+      "yak",
+      "laşım"
+    ],
+    [
+      "De",
+      "ep"
+    ],
+    [
+      "a",
+      "c"
+    ],
+    [
+      "a",
+      "da"
+    ],
+    [
+      "az",
+      "alt"
+    ],
+    [
+      "bir",
+      "leştir"
+    ],
+    [
+      "h",
+      "azır"
+    ],
+    [
+      "j",
+      "e"
+    ],
+    [
+      "k",
+      "üm"
+    ],
+    [
+      "kütüphan",
+      "esi"
+    ],
+    [
+      "le",
+      "ş"
+    ],
+    [
+      "t",
+      "en"
+    ],
+    [
+      "tab",
+      "anlı"
+    ],
+    [
+      "v",
+      "el"
+    ],
+    [
+      "a",
+      "ş"
+    ],
+    [
+      "as",
+      "is"
+    ],
+    [
+      "azalt",
+      "ır"
+    ],
+    [
+      "dayan",
+      "masını"
+    ],
+    [
+      "er",
+      "net"
+    ],
+    [
+      "kur",
+      "u"
+    ],
+    [
+      "o",
+      "ş"
+    ],
+    [
+      "p",
+      "h"
+    ],
+    [
+      "öl",
+      "ç"
+    ],
+    [
+      "İ",
+      "y"
+    ],
+    [
+      "D",
+      "es"
+    ],
+    [
+      "Des",
+      "tek"
+    ],
+    [
+      "Destek",
+      "li"
+    ],
+    [
+      "E",
+      "rişim"
+    ],
+    [
+      "getir",
+      "ilen"
+    ],
+    [
+      "lar",
+      "da"
+    ],
+    [
+      "m",
+      "is"
+    ],
+    [
+      "ret",
+      "im"
+    ],
+    [
+      "uy",
+      "dur"
+    ],
+    [
+      "Ü",
+      "retim"
+    ],
+    [
+      "ç",
+      "a"
+    ],
+    [
+      "ölç",
+      "ü"
+    ],
+    [
+      "önem",
+      "li"
+    ],
+    [
+      "ır",
+      "lı"
+    ],
+    [
+      "W",
+      "h"
+    ],
+    [
+      "bir",
+      "bir"
+    ],
+    [
+      "birbir",
+      "ine"
+    ],
+    [
+      "em",
+      "iyorum"
+    ],
+    [
+      "model",
+      "in"
+    ],
+    [
+      "p",
+      "o"
+    ],
+    [
+      "t",
+      "ara"
+    ],
+    [
+      "uydur",
+      "ma"
+    ],
+    [
+      "öy",
+      "le"
+    ],
+    [
+      "al",
+      "l"
+    ],
+    [
+      "ar",
+      "ını"
+    ],
+    [
+      "bileşen",
+      "ini"
+    ],
+    [
+      "er",
+      "s"
+    ],
+    [
+      "t",
+      "ar"
+    ],
+    [
+      "tanım",
+      "lanması"
+    ],
+    [
+      "yaklaşım",
+      "dır"
+    ],
+    [
+      "çalış",
+      "an"
+    ],
+    [
+      "üret",
+      "en"
+    ],
+    [
+      "S",
+      "or"
+    ],
+    [
+      "birleştir",
+      "en"
+    ],
+    [
+      "comp",
+      "le"
+    ],
+    [
+      "di",
+      "ğ"
+    ],
+    [
+      "e",
+      "ve"
+    ],
+    [
+      "eğitil",
+      "mesi"
+    ],
+    [
+      "it",
+      "ten"
+    ],
+    [
+      "kuru",
+      "lan"
+    ],
+    [
+      "ma",
+      "men"
+    ],
+    [
+      "mimaris",
+      "inin"
+    ],
+    [
+      "ta",
+      "mamen"
+    ],
+    [
+      "tab",
+      "anın"
+    ],
+    [
+      "u",
+      "sed"
+    ],
+    [
+      "wr",
+      "itten"
+    ],
+    [
+      "y",
+      "e"
+    ],
+    [
+      "yanıt",
+      "ların"
+    ],
+    [
+      "yap",
+      "ma"
+    ],
+    [
+      "ölçü",
+      "de"
+    ],
+    [
+      "ap",
+      "er"
+    ],
+    [
+      "app",
+      "ers"
+    ],
+    [
+      "gü",
+      "v"
+    ],
+    [
+      "m",
+      "i"
+    ],
+    [
+      "model",
+      "iyle"
+    ],
+    [
+      "p",
+      "aper"
+    ],
+    [
+      "tar",
+      "ih"
+    ],
+    [
+      "wr",
+      "appers"
+    ],
+    [
+      "G",
+      "ün"
+    ],
+    [
+      "an",
+      "y"
+    ],
+    [
+      "comple",
+      "te"
+    ],
+    [
+      "duc",
+      "ed"
+    ],
+    [
+      "int",
+      "ro"
+    ],
+    [
+      "intro",
+      "duced"
+    ],
+    [
+      "is",
+      "m"
+    ],
+    [
+      "lar",
+      "la"
+    ],
+    [
+      "ma",
+      "in"
+    ],
+    [
+      "parçal",
+      "arını"
+    ],
+    [
+      "s",
+      "iniz"
+    ],
+    [
+      "s",
+      "tem"
+    ],
+    [
+      "v",
+      "a"
+    ],
+    [
+      "A",
+      "n"
+    ],
+    [
+      "F",
+      "a"
+    ],
+    [
+      "Fa",
+      "ce"
+    ],
+    [
+      "Face",
+      "bo"
+    ],
+    [
+      "Facebo",
+      "ok"
+    ],
+    [
+      "S",
+      "e"
+    ],
+    [
+      "S",
+      "imilarity"
+    ],
+    [
+      "Se",
+      "arch"
+    ],
+    [
+      "akıl",
+      "lı"
+    ],
+    [
+      "ar",
+      "e"
+    ],
+    [
+      "at",
+      "tention"
+    ],
+    [
+      "bas",
+      "e"
+    ],
+    [
+      "bilg",
+      "il"
+    ],
+    [
+      "den",
+      "se"
+    ],
+    [
+      "dış",
+      "arı"
+    ],
+    [
+      "ev",
+      "r"
+    ],
+    [
+      "g",
+      "or"
+    ],
+    [
+      "iy",
+      "e"
+    ],
+    [
+      "m",
+      "ış"
+    ],
+    [
+      "ol",
+      "madan"
+    ],
+    [
+      "pro",
+      "du"
+    ],
+    [
+      "st",
+      "er"
+    ],
+    [
+      "sy",
+      "stem"
+    ],
+    [
+      "t",
+      "ransformer"
+    ],
+    [
+      "tek",
+      "rar"
+    ],
+    [
+      "w",
+      "ere"
+    ],
+    [
+      "z",
+      "am"
+    ],
+    [
+      "S",
+      "entence"
+    ],
+    [
+      "ad",
+      "yan"
+    ],
+    [
+      "adyan",
+      "ların"
+    ],
+    [
+      "al",
+      "arak"
+    ],
+    [
+      "al",
+      "gor"
+    ],
+    [
+      "ap",
+      "lanması"
+    ],
+    [
+      "bağ",
+      "lan"
+    ],
+    [
+      "ch",
+      "es"
+    ],
+    [
+      "d",
+      "ge"
+    ],
+    [
+      "es",
+      "aplanması"
+    ],
+    [
+      "gi",
+      "z"
+    ],
+    [
+      "gr",
+      "adyanların"
+    ],
+    [
+      "gün",
+      "ler"
+    ],
+    [
+      "h",
+      "esaplanması"
+    ],
+    [
+      "if",
+      "ic"
+    ],
+    [
+      "iy",
+      "im"
+    ],
+    [
+      "k",
+      "im"
+    ],
+    [
+      "k",
+      "n"
+    ],
+    [
+      "kn",
+      "ow"
+    ],
+    [
+      "know",
+      "le"
+    ],
+    [
+      "knowle",
+      "dge"
+    ],
+    [
+      "p",
+      "on"
+    ],
+    [
+      "r",
+      "el"
+    ],
+    [
+      "res",
+      "pon"
+    ],
+    [
+      "s",
+      "imilarity"
+    ],
+    [
+      "sel",
+      "f"
+    ],
+    [
+      "t",
+      "i"
+    ],
+    [
+      "u",
+      "z"
+    ],
+    [
+      "y",
+      "ük"
+    ],
+    [
+      "yer",
+      "ine"
+    ],
+    [
+      "K",
+      "ullan"
+    ],
+    [
+      "Kullan",
+      "ı"
+    ],
+    [
+      "L",
+      "P"
+    ],
+    [
+      "L",
+      "lama"
+    ],
+    [
+      "N",
+      "LP"
+    ],
+    [
+      "S",
+      "ize"
+    ],
+    [
+      "T",
+      "in"
+    ],
+    [
+      "Tin",
+      "y"
+    ],
+    [
+      "Tiny",
+      "Llama"
+    ],
+    [
+      "b",
+      "rar"
+    ],
+    [
+      "bağlam",
+      "ı"
+    ],
+    [
+      "brar",
+      "y"
+    ],
+    [
+      "clu",
+      "ster"
+    ],
+    [
+      "cluster",
+      "ing"
+    ],
+    [
+      "d",
+      "ığ"
+    ],
+    [
+      "du",
+      "ğun"
+    ],
+    [
+      "e",
+      "ff"
+    ],
+    [
+      "eff",
+      "ici"
+    ],
+    [
+      "effici",
+      "ent"
+    ],
+    [
+      "et",
+      "ches"
+    ],
+    [
+      "etri",
+      "eve"
+    ],
+    [
+      "etrieve",
+      "d"
+    ],
+    [
+      "f",
+      "etches"
+    ],
+    [
+      "li",
+      "brary"
+    ],
+    [
+      "m",
+      "al"
+    ],
+    [
+      "mis",
+      "in"
+    ],
+    [
+      "produ",
+      "ces"
+    ],
+    [
+      "r",
+      "etrieved"
+    ],
+    [
+      "set",
+      "s"
+    ],
+    [
+      "sign",
+      "ific"
+    ],
+    [
+      "sor",
+      "uy"
+    ],
+    [
+      "teşekkür",
+      "ler"
+    ],
+    [
+      "v",
+      "i"
+    ],
+    [
+      "yıl",
+      "da"
+    ],
+    [
+      "ön",
+      "ce"
+    ],
+    [
+      "ğr",
+      "u"
+    ],
+    [
+      "İ",
+      "nt"
+    ],
+    [
+      "S",
+      "a"
+    ],
+    [
+      "a",
+      "do"
+    ],
+    [
+      "ado",
+      "p"
+    ],
+    [
+      "al",
+      "n"
+    ],
+    [
+      "algor",
+      "ith"
+    ],
+    [
+      "algorith",
+      "ms"
+    ],
+    [
+      "aln",
+      "ız"
+    ],
+    [
+      "alnız",
+      "ca"
+    ],
+    [
+      "an",
+      "ce"
+    ],
+    [
+      "an",
+      "ism"
+    ],
+    [
+      "ay",
+      "d"
+    ],
+    [
+      "b",
+      "ines"
+    ],
+    [
+      "ba",
+      "ş"
+    ],
+    [
+      "bağ",
+      "ım"
+    ],
+    [
+      "bel",
+      "ge"
+    ],
+    [
+      "bel",
+      "le"
+    ],
+    [
+      "belle",
+      "ğ"
+    ],
+    [
+      "belleğ",
+      "ine"
+    ],
+    [
+      "bo",
+      "th"
+    ],
+    [
+      "bü",
+      "yük"
+    ],
+    [
+      "ch",
+      "anism"
+    ],
+    [
+      "com",
+      "bines"
+    ],
+    [
+      "con",
+      "d"
+    ],
+    [
+      "con",
+      "ta"
+    ],
+    [
+      "cond",
+      "ition"
+    ],
+    [
+      "conta",
+      "ins"
+    ],
+    [
+      "da",
+      "te"
+    ],
+    [
+      "dere",
+      "ce"
+    ],
+    [
+      "di",
+      "ff"
+    ],
+    [
+      "diff",
+      "er"
+    ],
+    [
+      "differ",
+      "enti"
+    ],
+    [
+      "differenti",
+      "ally"
+    ],
+    [
+      "do",
+      "ğru"
+    ],
+    [
+      "e",
+      "ach"
+    ],
+    [
+      "er",
+      "y"
+    ],
+    [
+      "ev",
+      "ant"
+    ],
+    [
+      "g",
+      "ro"
+    ],
+    [
+      "gro",
+      "un"
+    ],
+    [
+      "ha",
+      "va"
+    ],
+    [
+      "i",
+      "ği"
+    ],
+    [
+      "in",
+      "dir"
+    ],
+    [
+      "kt",
+      "ır"
+    ],
+    [
+      "ler",
+      "ini"
+    ],
+    [
+      "ma",
+      "ktır"
+    ],
+    [
+      "main",
+      "ly"
+    ],
+    [
+      "me",
+      "chanism"
+    ],
+    [
+      "n",
+      "ok"
+    ],
+    [
+      "nok",
+      "t"
+    ],
+    [
+      "o",
+      "ut"
+    ],
+    [
+      "oş",
+      "ça"
+    ],
+    [
+      "qu",
+      "ery"
+    ],
+    [
+      "rel",
+      "evant"
+    ],
+    [
+      "respon",
+      "se"
+    ],
+    [
+      "signific",
+      "ance"
+    ],
+    [
+      "te",
+      "ch"
+    ],
+    [
+      "unu",
+      "z"
+    ],
+    [
+      "with",
+      "out"
+    ],
+    [
+      "yap",
+      "arak"
+    ],
+    [
+      "yen",
+      "i"
+    ],
+    [
+      "ç",
+      "ük"
+    ],
+    [
+      "İnt",
+      "ernet"
+    ],
+    [
+      "3",
+      "8"
+    ],
+    [
+      "38",
+      "4"
+    ],
+    [
+      "S",
+      "iz"
+    ],
+    [
+      "The",
+      "y"
+    ],
+    [
+      "a",
+      "ct"
+    ],
+    [
+      "act",
+      "u"
+    ],
+    [
+      "actu",
+      "al"
+    ],
+    [
+      "adop",
+      "ts"
+    ],
+    [
+      "ar",
+      "ım"
+    ],
+    [
+      "bağım",
+      "lı"
+    ],
+    [
+      "c",
+      "it"
+    ],
+    [
+      "condition",
+      "ed"
+    ],
+    [
+      "d",
+      "el"
+    ],
+    [
+      "duğun",
+      "da"
+    ],
+    [
+      "dışarı",
+      "dan"
+    ],
+    [
+      "el",
+      "p"
+    ],
+    [
+      "elp",
+      "s"
+    ],
+    [
+      "exp",
+      "li"
+    ],
+    [
+      "expli",
+      "cit"
+    ],
+    [
+      "f",
+      "actual"
+    ],
+    [
+      "g",
+      "ö"
+    ],
+    [
+      "groun",
+      "d"
+    ],
+    [
+      "gör",
+      "üş"
+    ],
+    [
+      "h",
+      "elps"
+    ],
+    [
+      "h",
+      "i"
+    ],
+    [
+      "indir",
+      "ilen"
+    ],
+    [
+      "l",
+      "il"
+    ],
+    [
+      "mach",
+      "ine"
+    ],
+    [
+      "model",
+      "lere"
+    ],
+    [
+      "neler",
+      "dir"
+    ],
+    [
+      "ni",
+      "qu"
+    ],
+    [
+      "niqu",
+      "e"
+    ],
+    [
+      "taban",
+      "ında"
+    ],
+    [
+      "tech",
+      "nique"
+    ],
+    [
+      "u",
+      "se"
+    ],
+    [
+      "weight",
+      "ing"
+    ],
+    [
+      "y",
+      "alnızca"
+    ],
+    [
+      "yap",
+      "ı"
+    ],
+    [
+      "Kullanı",
+      "cı"
+    ],
+    [
+      "ay",
+      "ları"
+    ],
+    [
+      "aç",
+      "ı"
+    ],
+    [
+      "bağlan",
+      "tı"
+    ],
+    [
+      "be",
+      "ing"
+    ],
+    [
+      "d",
+      "ından"
+    ],
+    [
+      "do",
+      "sy"
+    ],
+    [
+      "enme",
+      "k"
+    ],
+    [
+      "eri",
+      "ence"
+    ],
+    [
+      "exp",
+      "erience"
+    ],
+    [
+      "explicit",
+      "ly"
+    ],
+    [
+      "giz",
+      "lil"
+    ],
+    [
+      "güv",
+      "enmek"
+    ],
+    [
+      "im",
+      "pro"
+    ],
+    [
+      "impro",
+      "ve"
+    ],
+    [
+      "k",
+      "od"
+    ],
+    [
+      "kur",
+      "maktır"
+    ],
+    [
+      "me",
+      "d"
+    ],
+    [
+      "mı",
+      "sın"
+    ],
+    [
+      "program",
+      "med"
+    ],
+    [
+      "s",
+      "ır"
+    ],
+    [
+      "sor",
+      "duğunda"
+    ],
+    [
+      "soruy",
+      "la"
+    ],
+    [
+      "system",
+      "s"
+    ],
+    [
+      "sır",
+      "as"
+    ],
+    [
+      "t",
+      "am"
+    ],
+    [
+      "th",
+      "en"
+    ],
+    [
+      "u",
+      "lar"
+    ],
+    [
+      "yap",
+      "abilir"
+    ],
+    [
+      "ü",
+      "s"
+    ],
+    [
+      "Ar",
+      "dından"
+    ],
+    [
+      "abilir",
+      "siniz"
+    ],
+    [
+      "ama",
+      "cı"
+    ],
+    [
+      "asis",
+      "tan"
+    ],
+    [
+      "ay",
+      "r"
+    ],
+    [
+      "ağ",
+      "ırlı"
+    ],
+    [
+      "ağırlı",
+      "k"
+    ],
+    [
+      "belg",
+      "eleri"
+    ],
+    [
+      "bilgil",
+      "ere"
+    ],
+    [
+      "d",
+      "ı"
+    ],
+    [
+      "del",
+      "ik"
+    ],
+    [
+      "derece",
+      "de"
+    ],
+    [
+      "di",
+      "ği"
+    ],
+    [
+      "k",
+      "o"
+    ],
+    [
+      "k",
+      "onu"
+    ],
+    [
+      "tab",
+      "anı"
+    ],
+    [
+      "ç",
+      "evr"
+    ],
+    [
+      "Wh",
+      "at"
+    ],
+    [
+      "Y",
+      "er"
+    ],
+    [
+      "Yer",
+      "el"
+    ],
+    [
+      "a",
+      "ut"
+    ],
+    [
+      "ac",
+      "cess"
+    ],
+    [
+      "aut",
+      "o"
+    ],
+    [
+      "auto",
+      "mat"
+    ],
+    [
+      "automat",
+      "ically"
+    ],
+    [
+      "ayı",
+      "p"
+    ],
+    [
+      "bağlantı",
+      "sı"
+    ],
+    [
+      "benzerli",
+      "k"
+    ],
+    [
+      "bo",
+      "y"
+    ],
+    [
+      "em",
+      "bedding"
+    ],
+    [
+      "iyor",
+      "sun"
+    ],
+    [
+      "se",
+      "v"
+    ],
+    [
+      "y",
+      "o"
+    ],
+    [
+      "çek",
+      "er"
+    ],
+    [
+      "İy",
+      "i"
+    ],
+    [
+      "erişim",
+      "im"
+    ],
+    [
+      "h",
+      "ız"
+    ],
+    [
+      "hız",
+      "lı"
+    ],
+    [
+      "il",
+      "o"
+    ],
+    [
+      "küm",
+      "eleri"
+    ],
+    [
+      "lama",
+      "k"
+    ],
+    [
+      "mış",
+      "tır"
+    ],
+    [
+      "nasıl",
+      "sın"
+    ],
+    [
+      "s",
+      "en"
+    ],
+    [
+      "sunu",
+      "cu"
+    ],
+    [
+      "yo",
+      "ğun"
+    ],
+    [
+      "Ç",
+      "ık"
+    ],
+    [
+      "Ar",
+      "t"
+    ],
+    [
+      "Bu",
+      "gün"
+    ],
+    [
+      "M",
+      "ach"
+    ],
+    [
+      "Mach",
+      "ine"
+    ],
+    [
+      "a",
+      "di"
+    ],
+    [
+      "ay",
+      "de"
+    ],
+    [
+      "bel",
+      "ir"
+    ],
+    [
+      "boy",
+      "ut"
+    ],
+    [
+      "c",
+      "an"
+    ],
+    [
+      "dığ",
+      "ı"
+    ],
+    [
+      "eriş",
+      "imi"
+    ],
+    [
+      "gerek",
+      "tir"
+    ],
+    [
+      "gerektir",
+      "me"
+    ],
+    [
+      "gizlil",
+      "iği"
+    ],
+    [
+      "he",
+      "de"
+    ],
+    [
+      "is",
+      "an"
+    ],
+    [
+      "iç",
+      "inde"
+    ],
+    [
+      "k",
+      "ayde"
+    ],
+    [
+      "k",
+      "orun"
+    ],
+    [
+      "korun",
+      "ur"
+    ],
+    [
+      "oluştur",
+      "ul"
+    ],
+    [
+      "oluşturul",
+      "ur"
+    ],
+    [
+      "p",
+      "or"
+    ],
+    [
+      "pro",
+      "vi"
+    ],
+    [
+      "program",
+      "s"
+    ],
+    [
+      "sohbet",
+      "leri"
+    ],
+    [
+      "t",
+      "ün"
+    ],
+    [
+      "Ç",
+      "ok"
+    ],
+    [
+      "ürü",
+      "z"
+    ],
+    [
+      "üş",
+      "ük"
+    ],
+    [
+      "Art",
+      "ificial"
+    ],
+    [
+      "E",
+      "ğit"
+    ],
+    [
+      "Eğit",
+      "im"
+    ],
+    [
+      "K",
+      "ü"
+    ],
+    [
+      "Kü",
+      "çük"
+    ],
+    [
+      "abil",
+      "ity"
+    ],
+    [
+      "adi",
+      "g"
+    ],
+    [
+      "an",
+      "ım"
+    ],
+    [
+      "ağırlık",
+      "ları"
+    ],
+    [
+      "d",
+      "üşük"
+    ],
+    [
+      "dim",
+      "en"
+    ],
+    [
+      "dimen",
+      "s"
+    ],
+    [
+      "don",
+      "anım"
+    ],
+    [
+      "g",
+      "un"
+    ],
+    [
+      "gö",
+      "m"
+    ],
+    [
+      "haf",
+      "if"
+    ],
+    [
+      "har",
+      "ici"
+    ],
+    [
+      "k",
+      "a"
+    ],
+    [
+      "kod",
+      "larla"
+    ],
+    [
+      "ol",
+      "ay"
+    ],
+    [
+      "p",
+      "lay"
+    ],
+    [
+      "par",
+      "adig"
+    ],
+    [
+      "provi",
+      "des"
+    ],
+    [
+      "sonu",
+      "ç"
+    ],
+    [
+      "sıras",
+      "ında"
+    ],
+    [
+      "ve",
+      "s"
+    ],
+    [
+      "yeni",
+      "den"
+    ],
+    [
+      "ı",
+      "sa"
+    ],
+    [
+      "A",
+      "y"
+    ],
+    [
+      "B",
+      "en"
+    ],
+    [
+      "I",
+      "nt"
+    ],
+    [
+      "Int",
+      "elligence"
+    ],
+    [
+      "a",
+      "ca"
+    ],
+    [
+      "aca",
+      "ba"
+    ],
+    [
+      "am",
+      "lar"
+    ],
+    [
+      "at",
+      "ion"
+    ],
+    [
+      "b",
+      "set"
+    ],
+    [
+      "bil",
+      "en"
+    ],
+    [
+      "bilgisayar",
+      "ında"
+    ],
+    [
+      "c",
+      "ted"
+    ],
+    [
+      "dil",
+      "ir"
+    ],
+    [
+      "dimens",
+      "ional"
+    ],
+    [
+      "el",
+      "ves"
+    ],
+    [
+      "embedding",
+      "s"
+    ],
+    [
+      "f",
+      "on"
+    ],
+    [
+      "fon",
+      "ks"
+    ],
+    [
+      "fonks",
+      "iy"
+    ],
+    [
+      "gerektirme",
+      "diği"
+    ],
+    [
+      "ha",
+      "ba"
+    ],
+    [
+      "hede",
+      "f"
+    ],
+    [
+      "i",
+      "ma"
+    ],
+    [
+      "is",
+      "ine"
+    ],
+    [
+      "isk",
+      "e"
+    ],
+    [
+      "k",
+      "olay"
+    ],
+    [
+      "k",
+      "ısa"
+    ],
+    [
+      "kayde",
+      "dilir"
+    ],
+    [
+      "kon",
+      "t"
+    ],
+    [
+      "kont",
+      "ro"
+    ],
+    [
+      "kontro",
+      "l"
+    ],
+    [
+      "la",
+      "şt"
+    ],
+    [
+      "lar",
+      "a"
+    ],
+    [
+      "laşt",
+      "ır"
+    ],
+    [
+      "m",
+      "il"
+    ],
+    [
+      "mant",
+      "ic"
+    ],
+    [
+      "me",
+      "ye"
+    ],
+    [
+      "ms",
+      "elves"
+    ],
+    [
+      "n",
+      "in"
+    ],
+    [
+      "ok",
+      "en"
+    ],
+    [
+      "se",
+      "mantic"
+    ],
+    [
+      "sonuç",
+      "ları"
+    ],
+    [
+      "su",
+      "bset"
+    ],
+    [
+      "t",
+      "anıt"
+    ],
+    [
+      "the",
+      "mselves"
+    ],
+    [
+      "wor",
+      "k"
+    ],
+    [
+      "y",
+      "la"
+    ],
+    [
+      "yap",
+      "ar"
+    ],
+    [
+      "çalış",
+      "ma"
+    ],
+    [
+      "ür",
+      "ür"
+    ],
+    [
+      "E",
+      "m"
+    ],
+    [
+      "Em",
+      "bedding"
+    ],
+    [
+      "T",
+      "üm"
+    ],
+    [
+      "abil",
+      "en"
+    ],
+    [
+      "arch",
+      "i"
+    ],
+    [
+      "archi",
+      "te"
+    ],
+    [
+      "archite",
+      "ctur"
+    ],
+    [
+      "art",
+      "ificial"
+    ],
+    [
+      "ayd",
+      "ın"
+    ],
+    [
+      "ayr",
+      "ılır"
+    ],
+    [
+      "belir",
+      "te"
+    ],
+    [
+      "belirte",
+      "ç"
+    ],
+    [
+      "belirteç",
+      "lere"
+    ],
+    [
+      "bü",
+      "tün"
+    ],
+    [
+      "bütün",
+      "leş"
+    ],
+    [
+      "bütünleş",
+      "ik"
+    ],
+    [
+      "c",
+      "unu"
+    ],
+    [
+      "cüml",
+      "eler"
+    ],
+    [
+      "d",
+      "iske"
+    ],
+    [
+      "d",
+      "ön"
+    ],
+    [
+      "de",
+      "m"
+    ],
+    [
+      "de",
+      "vel"
+    ],
+    [
+      "dem",
+      "on"
+    ],
+    [
+      "demon",
+      "st"
+    ],
+    [
+      "demonst",
+      "ra"
+    ],
+    [
+      "demonstra",
+      "ted"
+    ],
+    [
+      "des",
+      "tek"
+    ],
+    [
+      "devel",
+      "op"
+    ],
+    [
+      "diğ",
+      "inde"
+    ],
+    [
+      "dosy",
+      "aları"
+    ],
+    [
+      "doğru",
+      "lama"
+    ],
+    [
+      "dön",
+      "ü"
+    ],
+    [
+      "dönü",
+      "şt"
+    ],
+    [
+      "ed",
+      "ir"
+    ],
+    [
+      "el",
+      "de"
+    ],
+    [
+      "elli",
+      "k"
+    ],
+    [
+      "eğit",
+      "ilmiş"
+    ],
+    [
+      "f",
+      "o"
+    ],
+    [
+      "f",
+      "ra"
+    ],
+    [
+      "fo",
+      "cu"
+    ],
+    [
+      "fra",
+      "me"
+    ],
+    [
+      "frame",
+      "work"
+    ],
+    [
+      "ght",
+      "weight"
+    ],
+    [
+      "gün",
+      "delik"
+    ],
+    [
+      "güncel",
+      "len"
+    ],
+    [
+      "h",
+      "um"
+    ],
+    [
+      "ima",
+      "ge"
+    ],
+    [
+      "işle",
+      "mi"
+    ],
+    [
+      "lan",
+      "abilir"
+    ],
+    [
+      "lar",
+      "ında"
+    ],
+    [
+      "li",
+      "ghtweight"
+    ],
+    [
+      "mach",
+      "ines"
+    ],
+    [
+      "mas",
+      "ında"
+    ],
+    [
+      "nokt",
+      "aları"
+    ],
+    [
+      "oken",
+      "lara"
+    ],
+    [
+      "p",
+      "op"
+    ],
+    [
+      "s",
+      "entence"
+    ],
+    [
+      "s",
+      "p"
+    ],
+    [
+      "s",
+      "ta"
+    ],
+    [
+      "sonu",
+      "cunu"
+    ],
+    [
+      "sta",
+      "te"
+    ],
+    [
+      "t",
+      "okenlara"
+    ],
+    [
+      "tabanın",
+      "daki"
+    ],
+    [
+      "ver",
+      "en"
+    ],
+    [
+      "öz",
+      "ellik"
+    ],
+    [
+      "üz",
+      "ere"
+    ],
+    [
+      "An",
+      "lam"
+    ],
+    [
+      "M",
+      "er"
+    ],
+    [
+      "P",
+      "ro"
+    ],
+    [
+      "Pro",
+      "je"
+    ],
+    [
+      "S",
+      "el"
+    ],
+    [
+      "a",
+      "masında"
+    ],
+    [
+      "al",
+      "s"
+    ],
+    [
+      "an",
+      "im"
+    ],
+    [
+      "anim",
+      "als"
+    ],
+    [
+      "anlam",
+      "sal"
+    ],
+    [
+      "ar",
+      "ba"
+    ],
+    [
+      "arba",
+      "ge"
+    ],
+    [
+      "architectur",
+      "es"
+    ],
+    [
+      "açı",
+      "sın"
+    ],
+    [
+      "açısın",
+      "dan"
+    ],
+    [
+      "aş",
+      "amasında"
+    ],
+    [
+      "ba",
+      "har"
+    ],
+    [
+      "bas",
+      "ed"
+    ],
+    [
+      "bet",
+      "ik"
+    ],
+    [
+      "betik",
+      "leri"
+    ],
+    [
+      "c",
+      "ak"
+    ],
+    [
+      "c",
+      "ol"
+    ],
+    [
+      "col",
+      "le"
+    ],
+    [
+      "colle",
+      "cted"
+    ],
+    [
+      "d",
+      "is"
+    ],
+    [
+      "deney",
+      "imi"
+    ],
+    [
+      "dis",
+      "play"
+    ],
+    [
+      "display",
+      "ed"
+    ],
+    [
+      "du",
+      "ğ"
+    ],
+    [
+      "duc",
+      "ing"
+    ],
+    [
+      "dönüşt",
+      "ürür"
+    ],
+    [
+      "focu",
+      "ses"
+    ],
+    [
+      "fonksiy",
+      "onu"
+    ],
+    [
+      "g",
+      "arbage"
+    ],
+    [
+      "gil",
+      "eri"
+    ],
+    [
+      "güncellen",
+      "diğinde"
+    ],
+    [
+      "ha",
+      "ve"
+    ],
+    [
+      "han",
+      "gileri"
+    ],
+    [
+      "hedef",
+      "ler"
+    ],
+    [
+      "hum",
+      "ans"
+    ],
+    [
+      "il",
+      "ebilir"
+    ],
+    [
+      "im",
+      "ize"
+    ],
+    [
+      "isan",
+      "iy"
+    ],
+    [
+      "isaniy",
+      "eler"
+    ],
+    [
+      "k",
+      "ayıp"
+    ],
+    [
+      "kar",
+      "şı"
+    ],
+    [
+      "kaynak",
+      "larında"
+    ],
+    [
+      "m",
+      "or"
+    ],
+    [
+      "mil",
+      "isaniyeler"
+    ],
+    [
+      "mo",
+      "st"
+    ],
+    [
+      "mo",
+      "t"
+    ],
+    [
+      "model",
+      "ine"
+    ],
+    [
+      "model",
+      "ini"
+    ],
+    [
+      "mot",
+      "orun"
+    ],
+    [
+      "motorun",
+      "dan"
+    ],
+    [
+      "on",
+      "e"
+    ],
+    [
+      "op",
+      "t"
+    ],
+    [
+      "opt",
+      "imize"
+    ],
+    [
+      "p",
+      "por"
+    ],
+    [
+      "pop",
+      "ular"
+    ],
+    [
+      "pro",
+      "ducing"
+    ],
+    [
+      "sayı",
+      "sal"
+    ],
+    [
+      "soru",
+      "sunu"
+    ],
+    [
+      "sp",
+      "e"
+    ],
+    [
+      "st",
+      "r"
+    ],
+    [
+      "su",
+      "ppor"
+    ],
+    [
+      "tanıt",
+      "ıl"
+    ],
+    [
+      "tekrar",
+      "lanabilir"
+    ],
+    [
+      "ti",
+      "p"
+    ],
+    [
+      "vektör",
+      "lere"
+    ],
+    [
+      "veril",
+      "erim"
+    ],
+    [
+      "zam",
+      "an"
+    ],
+    [
+      "Çık",
+      "arım"
+    ],
+    [
+      "ı",
+      "yor"
+    ],
+    [
+      "ınız",
+      "ı"
+    ],
+    [
+      "ığ",
+      "ını"
+    ],
+    [
+      "B",
+      "il"
+    ],
+    [
+      "ad",
+      "er"
+    ],
+    [
+      "ak",
+      "tara"
+    ],
+    [
+      "aktara",
+      "bilen"
+    ],
+    [
+      "am",
+      "ically"
+    ],
+    [
+      "am",
+      "il"
+    ],
+    [
+      "amil",
+      "y"
+    ],
+    [
+      "an",
+      "lamak"
+    ],
+    [
+      "app",
+      "li"
+    ],
+    [
+      "appli",
+      "ed"
+    ],
+    [
+      "ar",
+      "p"
+    ],
+    [
+      "aras",
+      "ında"
+    ],
+    [
+      "arp",
+      "ım"
+    ],
+    [
+      "b",
+      "je"
+    ],
+    [
+      "b",
+      "ro"
+    ],
+    [
+      "be",
+      "en"
+    ],
+    [
+      "belgeler",
+      "in"
+    ],
+    [
+      "benzerli",
+      "ği"
+    ],
+    [
+      "bje",
+      "ct"
+    ],
+    [
+      "bro",
+      "ader"
+    ],
+    [
+      "co",
+      "de"
+    ],
+    [
+      "co",
+      "gn"
+    ],
+    [
+      "cogn",
+      "ition"
+    ],
+    [
+      "ct",
+      "ional"
+    ],
+    [
+      "ctur",
+      "ed"
+    ],
+    [
+      "cüml",
+      "eleri"
+    ],
+    [
+      "d",
+      "y"
+    ],
+    [
+      "de",
+      "sign"
+    ],
+    [
+      "develop",
+      "m"
+    ],
+    [
+      "developm",
+      "ent"
+    ],
+    [
+      "değ",
+      "eri"
+    ],
+    [
+      "dy",
+      "n"
+    ],
+    [
+      "dyn",
+      "amically"
+    ],
+    [
+      "dış",
+      "ına"
+    ],
+    [
+      "e",
+      "ch"
+    ],
+    [
+      "em",
+      "ph"
+    ],
+    [
+      "emph",
+      "as"
+    ],
+    [
+      "en",
+      "ted"
+    ],
+    [
+      "ent",
+      "ation"
+    ],
+    [
+      "ep",
+      "res"
+    ],
+    [
+      "epres",
+      "entation"
+    ],
+    [
+      "eriş",
+      "ilebilir"
+    ],
+    [
+      "eğit",
+      "mek"
+    ],
+    [
+      "eğit",
+      "meye"
+    ],
+    [
+      "f",
+      "amily"
+    ],
+    [
+      "f",
+      "un"
+    ],
+    [
+      "fun",
+      "ctional"
+    ],
+    [
+      "göm",
+      "me"
+    ],
+    [
+      "h",
+      "y"
+    ],
+    [
+      "i",
+      "ented"
+    ],
+    [
+      "ilo",
+      "s"
+    ],
+    [
+      "ilos",
+      "op"
+    ],
+    [
+      "ilosop",
+      "hy"
+    ],
+    [
+      "iz",
+      "le"
+    ],
+    [
+      "kal",
+      "madan"
+    ],
+    [
+      "kend",
+      "isine"
+    ],
+    [
+      "ko",
+      "sin"
+    ],
+    [
+      "kosin",
+      "üs"
+    ],
+    [
+      "kütüphan",
+      "eleri"
+    ],
+    [
+      "l",
+      "ük"
+    ],
+    [
+      "lay",
+      "abilen"
+    ],
+    [
+      "ma",
+      "dığı"
+    ],
+    [
+      "mant",
+      "ığını"
+    ],
+    [
+      "me",
+      "th"
+    ],
+    [
+      "meth",
+      "od"
+    ],
+    [
+      "method",
+      "s"
+    ],
+    [
+      "n",
+      "er"
+    ],
+    [
+      "o",
+      "bject"
+    ],
+    [
+      "or",
+      "iented"
+    ],
+    [
+      "p",
+      "ed"
+    ],
+    [
+      "paradig",
+      "ms"
+    ],
+    [
+      "ph",
+      "ilosophy"
+    ],
+    [
+      "r",
+      "epresentation"
+    ],
+    [
+      "re",
+      "cognition"
+    ],
+    [
+      "s",
+      "öyle"
+    ],
+    [
+      "sor",
+      "unuz"
+    ],
+    [
+      "spe",
+      "ech"
+    ],
+    [
+      "str",
+      "u"
+    ],
+    [
+      "stru",
+      "ctured"
+    ],
+    [
+      "suppor",
+      "ts"
+    ],
+    [
+      "t",
+      "y"
+    ],
+    [
+      "ta",
+      "şı"
+    ],
+    [
+      "taşı",
+      "yan"
+    ],
+    [
+      "ty",
+      "ped"
+    ],
+    [
+      "veril",
+      "en"
+    ],
+    [
+      "y",
+      "ım"
+    ],
+    [
+      "yanıt",
+      "layabilen"
+    ],
+    [
+      "yap",
+      "abil"
+    ],
+    [
+      "ç",
+      "arpım"
+    ],
+    [
+      "çek",
+      "li"
+    ],
+    [
+      "çık",
+      "madan"
+    ],
+    [
+      "öl",
+      "çekli"
+    ],
+    [
+      "özellik",
+      "lerini"
+    ],
+    [
+      "ş",
+      "ey"
+    ],
+    [
+      "Anlam",
+      "ca"
+    ],
+    [
+      "Ay",
+      "r"
+    ],
+    [
+      "Ayr",
+      "ı"
+    ],
+    [
+      "Ayrı",
+      "ca"
+    ],
+    [
+      "Türk",
+      "iye"
+    ],
+    [
+      "V",
+      "ek"
+    ],
+    [
+      "Vek",
+      "t"
+    ],
+    [
+      "Vekt",
+      "ör"
+    ],
+    [
+      "ada",
+      "bil"
+    ],
+    [
+      "adabil",
+      "ity"
+    ],
+    [
+      "ay",
+      "ında"
+    ],
+    [
+      "b",
+      "ana"
+    ],
+    [
+      "belgeler",
+      "iniz"
+    ],
+    [
+      "c",
+      "ur"
+    ],
+    [
+      "con",
+      "v"
+    ],
+    [
+      "conv",
+      "ol"
+    ],
+    [
+      "convol",
+      "ut"
+    ],
+    [
+      "convolut",
+      "ional"
+    ],
+    [
+      "cur",
+      "r"
+    ],
+    [
+      "curr",
+      "ent"
+    ],
+    [
+      "dur",
+      "um"
+    ],
+    [
+      "emphas",
+      "iz"
+    ],
+    [
+      "emphasiz",
+      "es"
+    ],
+    [
+      "en",
+      "k"
+    ],
+    [
+      "er",
+      "al"
+    ],
+    [
+      "g",
+      "h"
+    ],
+    [
+      "gen",
+      "eral"
+    ],
+    [
+      "gör",
+      "emiyorum"
+    ],
+    [
+      "gün",
+      "lük"
+    ],
+    [
+      "haf",
+      "ta"
+    ],
+    [
+      "hi",
+      "gh"
+    ],
+    [
+      "ht",
+      "ar"
+    ],
+    [
+      "il",
+      "e"
+    ],
+    [
+      "inde",
+      "ks"
+    ],
+    [
+      "iş",
+      "ler"
+    ],
+    [
+      "k",
+      "enti"
+    ],
+    [
+      "karşı",
+      "laştır"
+    ],
+    [
+      "karşılaştır",
+      "ılır"
+    ],
+    [
+      "kon",
+      "um"
+    ],
+    [
+      "le",
+      "vel"
+    ],
+    [
+      "m",
+      "ul"
+    ],
+    [
+      "ma",
+      "kal"
+    ],
+    [
+      "met",
+      "ni"
+    ],
+    [
+      "mor",
+      "e"
+    ],
+    [
+      "op",
+      "po"
+    ],
+    [
+      "oppo",
+      "sed"
+    ],
+    [
+      "p",
+      "ur"
+    ],
+    [
+      "parçaları",
+      "yla"
+    ],
+    [
+      "po",
+      "se"
+    ],
+    [
+      "pur",
+      "pose"
+    ],
+    [
+      "r",
+      "enk"
+    ],
+    [
+      "re",
+      "adability"
+    ],
+    [
+      "re",
+      "current"
+    ],
+    [
+      "sayı",
+      "da"
+    ],
+    [
+      "sev",
+      "iy"
+    ],
+    [
+      "su",
+      "ch"
+    ],
+    [
+      "uy",
+      "gun"
+    ],
+    [
+      "uy",
+      "un"
+    ],
+    [
+      "uz",
+      "ayında"
+    ],
+    [
+      "verilerim",
+      "izle"
+    ],
+    [
+      "G",
+      "ör"
+    ],
+    [
+      "H",
+      "ay"
+    ],
+    [
+      "H",
+      "oşça"
+    ],
+    [
+      "It",
+      "s"
+    ],
+    [
+      "Sor",
+      "gu"
+    ],
+    [
+      "T",
+      "eş"
+    ],
+    [
+      "Teş",
+      "ekkür"
+    ],
+    [
+      "ana",
+      "htar"
+    ],
+    [
+      "ant",
+      "i"
+    ],
+    [
+      "anti",
+      "gr"
+    ],
+    [
+      "antigr",
+      "at"
+    ],
+    [
+      "bak",
+      "ım"
+    ],
+    [
+      "bakım",
+      "ından"
+    ],
+    [
+      "bir",
+      "e"
+    ],
+    [
+      "bire",
+      "bir"
+    ],
+    [
+      "eş",
+      "leş"
+    ],
+    [
+      "eşleş",
+      "me"
+    ],
+    [
+      "eşleşme",
+      "se"
+    ],
+    [
+      "ic",
+      "a"
+    ],
+    [
+      "il",
+      "erek"
+    ],
+    [
+      "indeks",
+      "tek"
+    ],
+    [
+      "indekstek",
+      "i"
+    ],
+    [
+      "iy",
+      "et"
+    ],
+    [
+      "kelim",
+      "eleri"
+    ],
+    [
+      "kolay",
+      "ca"
+    ],
+    [
+      "konum",
+      "larda"
+    ],
+    [
+      "mul",
+      "tip"
+    ],
+    [
+      "multip",
+      "le"
+    ],
+    [
+      "ol",
+      "madığı"
+    ],
+    [
+      "s",
+      "antigrat"
+    ],
+    [
+      "s",
+      "ınız"
+    ],
+    [
+      "t",
+      "anı"
+    ],
+    [
+      "taban",
+      "ları"
+    ],
+    [
+      "tanıtıl",
+      "dı"
+    ],
+    [
+      "tara",
+      "f"
+    ],
+    [
+      "vektör",
+      "e"
+    ],
+    [
+      "veri",
+      "tabanları"
+    ],
+    [
+      "yanıt",
+      "layabilir"
+    ],
+    [
+      "yöntem",
+      "le"
+    ],
+    [
+      "çevr",
+      "ilerek"
+    ],
+    [
+      "öyle",
+      "ce"
+    ],
+    [
+      "B",
+      "öylece"
+    ],
+    [
+      "ar",
+      "k"
+    ],
+    [
+      "baş",
+      "kenti"
+    ],
+    [
+      "ce",
+      "v"
+    ],
+    [
+      "cev",
+      "ap"
+    ],
+    [
+      "görüş",
+      "ürüz"
+    ],
+    [
+      "ha",
+      "b"
+    ],
+    [
+      "hangileri",
+      "dir"
+    ],
+    [
+      "kayn",
+      "ar"
+    ],
+    [
+      "kullan",
+      "ır"
+    ],
+    [
+      "ol",
+      "duğ"
+    ],
+    [
+      "ol",
+      "ur"
+    ],
+    [
+      "seç",
+      "ilir"
+    ],
+    [
+      "taraf",
+      "ından"
+    ],
+    [
+      "B",
+      "aş"
+    ],
+    [
+      "Gör",
+      "üş"
+    ],
+    [
+      "H",
+      "a"
+    ],
+    [
+      "Sa",
+      "f"
+    ],
+    [
+      "ak",
+      "a"
+    ],
+    [
+      "ay",
+      "a"
+    ],
+    [
+      "boyut",
+      "lu"
+    ],
+    [
+      "d",
+      "in"
+    ],
+    [
+      "do",
+      "es"
+    ],
+    [
+      "geliş",
+      "tir"
+    ],
+    [
+      "iniz",
+      "e"
+    ],
+    [
+      "is",
+      "i"
+    ],
+    [
+      "nasıl",
+      "sınız"
+    ],
+    [
+      "ü",
+      "zen"
+    ],
+    [
+      "Mer",
+      "haba"
+    ],
+    [
+      "R",
+      "ica"
+    ],
+    [
+      "dak",
+      "ik"
+    ],
+    [
+      "dış",
+      "ı"
+    ],
+    [
+      "er",
+      "ir"
+    ],
+    [
+      "gi",
+      "d"
+    ],
+    [
+      "im",
+      "dışı"
+    ],
+    [
+      "m",
+      "alı"
+    ],
+    [
+      "m",
+      "u"
+    ],
+    [
+      "yapabil",
+      "iyorsun"
+    ],
+    [
+      "Baş",
+      "ka"
+    ],
+    [
+      "N",
+      "asıl"
+    ],
+    [
+      "Sel",
+      "am"
+    ],
+    [
+      "Y",
+      "ar"
+    ],
+    [
+      "al",
+      "ık"
+    ],
+    [
+      "bak",
+      "ın"
+    ],
+    [
+      "den",
+      "iz"
+    ],
+    [
+      "don",
+      "ar"
+    ],
+    [
+      "el",
+      "i"
+    ],
+    [
+      "er",
+      "çek"
+    ],
+    [
+      "g",
+      "isi"
+    ],
+    [
+      "h",
+      "er"
+    ],
+    [
+      "han",
+      "gisi"
+    ],
+    [
+      "iy",
+      "iyim"
+    ],
+    [
+      "le",
+      "y"
+    ],
+    [
+      "p",
+      "lam"
+    ],
+    [
+      "s",
+      "im"
+    ],
+    [
+      "seviy",
+      "esinde"
+    ],
+    [
+      "tabanın",
+      "dan"
+    ],
+    [
+      "to",
+      "plam"
+    ],
+    [
+      "ş",
+      "aka"
+    ],
+    [
+      "ş",
+      "u"
+    ],
+    [
+      "B",
+      "ana"
+    ],
+    [
+      "D",
+      "ün"
+    ],
+    [
+      "ak",
+      "lan"
+    ],
+    [
+      "ak",
+      "ş"
+    ],
+    [
+      "al",
+      "ar"
+    ],
+    [
+      "as",
+      "ı"
+    ],
+    [
+      "bil",
+      "me"
+    ],
+    [
+      "c",
+      "edir"
+    ],
+    [
+      "da",
+      "ha"
+    ],
+    [
+      "dere",
+      "cedir"
+    ],
+    [
+      "dil",
+      "erim"
+    ],
+    [
+      "e",
+      "gen"
+    ],
+    [
+      "ge",
+      "ç"
+    ],
+    [
+      "gün",
+      "leri"
+    ],
+    [
+      "kal",
+      "ın"
+    ],
+    [
+      "kend",
+      "ine"
+    ],
+    [
+      "lı",
+      "ğ"
+    ],
+    [
+      "ner",
+      "esi"
+    ],
+    [
+      "od",
+      "aklan"
+    ],
+    [
+      "s",
+      "on"
+    ],
+    [
+      "soru",
+      "lar"
+    ],
+    [
+      "yapabilir",
+      "sin"
+    ],
+    [
+      "yar",
+      "ar"
+    ],
+    [
+      "z",
+      "egen"
+    ],
+    [
+      "üzen",
+      "li"
+    ],
+    [
+      "E",
+      "ve"
+    ],
+    [
+      "Eve",
+      "t"
+    ],
+    [
+      "Gün",
+      "aydın"
+    ],
+    [
+      "Ha",
+      "f"
+    ],
+    [
+      "K",
+      "en"
+    ],
+    [
+      "Y",
+      "ıl"
+    ],
+    [
+      "a",
+      "day"
+    ],
+    [
+      "ada",
+      "ş"
+    ],
+    [
+      "aday",
+      "ım"
+    ],
+    [
+      "adaş",
+      "ları"
+    ],
+    [
+      "akş",
+      "amlar"
+    ],
+    [
+      "anı",
+      "z"
+    ],
+    [
+      "ark",
+      "adaşları"
+    ],
+    [
+      "bağ",
+      "lama"
+    ],
+    [
+      "bilme",
+      "ce"
+    ],
+    [
+      "c",
+      "ih"
+    ],
+    [
+      "durum",
+      "u"
+    ],
+    [
+      "ge",
+      "zegen"
+    ],
+    [
+      "geç",
+      "iyor"
+    ],
+    [
+      "görüş",
+      "mek"
+    ],
+    [
+      "h",
+      "oşça"
+    ],
+    [
+      "k",
+      "u"
+    ],
+    [
+      "l",
+      "k"
+    ],
+    [
+      "makal",
+      "esinde"
+    ],
+    [
+      "me",
+      "v"
+    ],
+    [
+      "mev",
+      "sim"
+    ],
+    [
+      "ne",
+      "y"
+    ],
+    [
+      "sistem",
+      "inde"
+    ],
+    [
+      "t",
+      "ığ"
+    ],
+    [
+      "tığ",
+      "ım"
+    ],
+    [
+      "ur",
+      "adayım"
+    ],
+    [
+      "yaz",
+      "ı"
+    ],
+    [
+      "yazıl",
+      "mıştır"
+    ],
+    [
+      "yıl",
+      "ında"
+    ],
+    [
+      "zam",
+      "anlı"
+    ],
+    [
+      "çalış",
+      "tığım"
+    ],
+    [
+      "çalış",
+      "ır"
+    ],
+    [
+      "ğ",
+      "u"
+    ],
+    [
+      "Ş",
+      "u"
+    ],
+    [
+      "ş",
+      "ur"
+    ],
+    [
+      "0",
+      "0"
+    ],
+    [
+      "G",
+      "erçek"
+    ],
+    [
+      "Yıl",
+      "ın"
+    ],
+    [
+      "ay",
+      "ın"
+    ],
+    [
+      "b",
+      "uradayım"
+    ],
+    [
+      "erim",
+      "li"
+    ],
+    [
+      "hab",
+      "er"
+    ],
+    [
+      "iç",
+      "erir"
+    ],
+    [
+      "iş",
+      "e"
+    ],
+    [
+      "konu",
+      "da"
+    ],
+    [
+      "malı",
+      "yım"
+    ],
+    [
+      "mu",
+      "sun"
+    ],
+    [
+      "sorular",
+      "ınızı"
+    ],
+    [
+      "y",
+      "et"
+    ],
+    [
+      "yazı",
+      "lan"
+    ],
+    [
+      "çalış",
+      "ıyor"
+    ],
+    [
+      "ır",
+      "ır"
+    ],
+    [
+      "Gün",
+      "eş"
+    ],
+    [
+      "Hay",
+      "ır"
+    ],
+    [
+      "S",
+      "en"
+    ],
+    [
+      "S",
+      "on"
+    ],
+    [
+      "Siz",
+      "in"
+    ],
+    [
+      "a",
+      "b"
+    ],
+    [
+      "a",
+      "de"
+    ],
+    [
+      "b",
+      "at"
+    ],
+    [
+      "e",
+      "h"
+    ],
+    [
+      "en",
+      "ek"
+    ],
+    [
+      "il",
+      "k"
+    ],
+    [
+      "kaç",
+      "tır"
+    ],
+    [
+      "ler",
+      "den"
+    ],
+    [
+      "li",
+      "k"
+    ],
+    [
+      "lığ",
+      "ı"
+    ],
+    [
+      "mak",
+      "ine"
+    ],
+    [
+      "olu",
+      "şur"
+    ],
+    [
+      "or",
+      "mal"
+    ],
+    [
+      "sor",
+      "ar"
+    ],
+    [
+      "söyle",
+      "y"
+    ],
+    [
+      "v",
+      "erimli"
+    ],
+    [
+      "w",
+      "h"
+    ],
+    [
+      "y",
+      "ok"
+    ],
+    [
+      "yaz",
+      "abilirsiniz"
+    ],
+    [
+      "İy",
+      "iyim"
+    ],
+    [
+      "1",
+      "00"
+    ],
+    [
+      "A",
+      "sis"
+    ],
+    [
+      "Asis",
+      "tanı"
+    ],
+    [
+      "Bil",
+      "gi"
+    ],
+    [
+      "Ken",
+      "d"
+    ],
+    [
+      "N",
+      "eler"
+    ],
+    [
+      "S",
+      "u"
+    ],
+    [
+      "S",
+      "uyun"
+    ],
+    [
+      "ayı",
+      "cı"
+    ],
+    [
+      "ağ",
+      "lar"
+    ],
+    [
+      "bir",
+      "lik"
+    ],
+    [
+      "birlik",
+      "te"
+    ],
+    [
+      "bugün",
+      "ün"
+    ],
+    [
+      "d",
+      "üzenli"
+    ],
+    [
+      "day",
+      "alı"
+    ],
+    [
+      "dil",
+      "inde"
+    ],
+    [
+      "ek",
+      "si"
+    ],
+    [
+      "g",
+      "eler"
+    ],
+    [
+      "gu",
+      "sal"
+    ],
+    [
+      "gün",
+      "de"
+    ],
+    [
+      "iniz",
+      "i"
+    ],
+    [
+      "int",
+      "ernet"
+    ],
+    [
+      "kaynak",
+      "lı"
+    ],
+    [
+      "lar",
+      "ım"
+    ],
+    [
+      "ley",
+      "ebilir"
+    ],
+    [
+      "m",
+      "anız"
+    ],
+    [
+      "m",
+      "ut"
+    ],
+    [
+      "mı",
+      "z"
+    ],
+    [
+      "ne",
+      "ye"
+    ],
+    [
+      "neresi",
+      "dir"
+    ],
+    [
+      "ol",
+      "gusal"
+    ],
+    [
+      "olduğ",
+      "unu"
+    ],
+    [
+      "proj",
+      "ede"
+    ],
+    [
+      "s",
+      "an"
+    ],
+    [
+      "s",
+      "iz"
+    ],
+    [
+      "s",
+      "uyun"
+    ],
+    [
+      "t",
+      "ür"
+    ],
+    [
+      "vektör",
+      "ler"
+    ],
+    [
+      "yap",
+      "malıyım"
+    ],
+    [
+      "çevr",
+      "imdışı"
+    ],
+    [
+      "öz",
+      "et"
+    ],
+    [
+      "İ",
+      "s"
+    ],
+    [
+      "C",
+      "anlı"
+    ],
+    [
+      "Görüş",
+      "mek"
+    ],
+    [
+      "H",
+      "er"
+    ],
+    [
+      "Haf",
+      "ta"
+    ],
+    [
+      "K",
+      "ış"
+    ],
+    [
+      "Sa",
+      "at"
+    ],
+    [
+      "Son",
+      "bahar"
+    ],
+    [
+      "Sor",
+      "unuz"
+    ],
+    [
+      "Y",
+      "az"
+    ],
+    [
+      "Yar",
+      "dım"
+    ],
+    [
+      "ama",
+      "ç"
+    ],
+    [
+      "an",
+      "l"
+    ],
+    [
+      "anl",
+      "at"
+    ],
+    [
+      "ar",
+      "mal"
+    ],
+    [
+      "armal",
+      "ayıcı"
+    ],
+    [
+      "bilg",
+      "ileri"
+    ],
+    [
+      "bul",
+      "up"
+    ],
+    [
+      "değ",
+      "il"
+    ],
+    [
+      "eksi",
+      "ks"
+    ],
+    [
+      "eksiks",
+      "iz"
+    ],
+    [
+      "f",
+      "en"
+    ],
+    [
+      "for",
+      "m"
+    ],
+    [
+      "form",
+      "ü"
+    ],
+    [
+      "formü",
+      "lü"
+    ],
+    [
+      "hangisi",
+      "dir"
+    ],
+    [
+      "it",
+      "ap"
+    ],
+    [
+      "k",
+      "ey"
+    ],
+    [
+      "lk",
+      "bahar"
+    ],
+    [
+      "lü",
+      "t"
+    ],
+    [
+      "lüt",
+      "fen"
+    ],
+    [
+      "lı",
+      "k"
+    ],
+    [
+      "nokt",
+      "ası"
+    ],
+    [
+      "s",
+      "ana"
+    ],
+    [
+      "s",
+      "armalayıcı"
+    ],
+    [
+      "sel",
+      "am"
+    ],
+    [
+      "t",
+      "er"
+    ],
+    [
+      "t",
+      "ürk"
+    ],
+    [
+      "tak",
+      "v"
+    ],
+    [
+      "takv",
+      "im"
+    ],
+    [
+      "te",
+      "diğ"
+    ],
+    [
+      "ver",
+      "ir"
+    ],
+    [
+      "veriler",
+      "ine"
+    ],
+    [
+      "ör",
+      "t"
+    ],
+    [
+      "İ",
+      "lkbahar"
+    ],
+    [
+      "İ",
+      "n"
+    ],
+    [
+      "Şu",
+      "bat"
+    ],
+    [
+      "ş",
+      "eh"
+    ],
+    [
+      "1",
+      "2"
+    ],
+    [
+      "An",
+      "k"
+    ],
+    [
+      "Ank",
+      "ara"
+    ],
+    [
+      "B",
+      "el"
+    ],
+    [
+      "Bil",
+      "g"
+    ],
+    [
+      "Bilg",
+      "isayar"
+    ],
+    [
+      "C",
+      "ev"
+    ],
+    [
+      "C",
+      "um"
+    ],
+    [
+      "Cev",
+      "ap"
+    ],
+    [
+      "Dün",
+      "ya"
+    ],
+    [
+      "Görüş",
+      "ürüz"
+    ],
+    [
+      "H",
+      "an"
+    ],
+    [
+      "H",
+      "ow"
+    ],
+    [
+      "Han",
+      "gi"
+    ],
+    [
+      "Hay",
+      "ırlı"
+    ],
+    [
+      "Kend",
+      "inize"
+    ],
+    [
+      "P",
+      "az"
+    ],
+    [
+      "Paz",
+      "ar"
+    ],
+    [
+      "Sor",
+      "ular"
+    ],
+    [
+      "Sorular",
+      "ınızı"
+    ],
+    [
+      "Sorunuz",
+      "u"
+    ],
+    [
+      "ade",
+      "t"
+    ],
+    [
+      "al",
+      "an"
+    ],
+    [
+      "ar",
+      "ş"
+    ],
+    [
+      "asis",
+      "tanı"
+    ],
+    [
+      "açık",
+      "ça"
+    ],
+    [
+      "ba",
+      "h"
+    ],
+    [
+      "belgeleriniz",
+      "den"
+    ],
+    [
+      "bil",
+      "emiyorum"
+    ],
+    [
+      "bil",
+      "iyorsun"
+    ],
+    [
+      "bugün",
+      "kü"
+    ],
+    [
+      "d",
+      "erin"
+    ],
+    [
+      "d",
+      "ür"
+    ],
+    [
+      "dakik",
+      "a"
+    ],
+    [
+      "dayan",
+      "arak"
+    ],
+    [
+      "destek",
+      "ler"
+    ],
+    [
+      "dil",
+      "ik"
+    ],
+    [
+      "ed",
+      "il"
+    ],
+    [
+      "gid",
+      "iyor"
+    ],
+    [
+      "h",
+      "ay"
+    ],
+    [
+      "ht",
+      "iy"
+    ],
+    [
+      "il",
+      "er"
+    ],
+    [
+      "im",
+      "dilik"
+    ],
+    [
+      "in",
+      "dim"
+    ]
+  ]
+}

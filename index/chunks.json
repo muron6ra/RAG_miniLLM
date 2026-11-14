@@ -1,42 +1,67 @@
 [
   {
+    "source": "ornek_tr.txt",
+    "chunk_id": 0,
+    "text": "Yapay zeka, bilgisayar sistemlerinin insan zekasına özgü öğrenme, akıl yürütme ve problem çözme becerilerini taklit etmesini sağlayan teknoloji alanıdır. Makine öğrenmesi, yapay zekanın bir alt dalı olarak sistemlerin açık kurallar yazılmadan verilerden örüntü çıkarmasına ve deneyimle gelişmesine olanak tanır. Derin öğrenme ise çok katmanlı yapay sinir ağları kullanarak metin, görüntü ve ses gibi karmaşık verileri işleyen güçlü bir yöntemdir. Modern dil modellerinin temelini oluşturan Transformer mimarisi, öz-dikkat mekanizması sayesinde bir cümledeki kelimeler arasındaki bağlamsal ilişkileri aynı anda değerlendirebilir. Bu sayede yapay zeka sistemleri doğal dili anlayabilir ve tutarlı metinler üretebilir."
+  },
+  {
+    "source": "ornek_tr.txt",
+    "chunk_id": 1,
+    "text": "RAG (Retrieval-Augmented Generation / Erişim Destekli Üretim), bir bilgi erişim bileşenini metin üreten bir dil modeliyle birleştiren akıllı bir yaklaşımdır. Kullanıcı bir soru sorduğunda sistem önce yerel bilgi tabanında arama yaparak soruyla en ilgili metin parçalarını bulur. Ardından dil modeli, yalnızca kendi eğitim belleğine güvenmek yerine bu getirilen bağlamı temel alarak yanıt üretir. Bu yöntem, dil modellerinin uydurma yani halüsinasyon yapma riskini önemli ölçüde azaltır ve yanıtların belgelere dayanmasını sağlar. Ayrıca bilgi tabanındaki metin dosyaları güncellendiğinde modeli yeniden eğitmeye gerek kalmadan güncel bilgilere erişilebilir."
+  },
+  {
+    "source": "ornek_tr.txt",
+    "chunk_id": 2,
+    "text": "Embedding yani metin gömme işlemi, kelimeleri ve cümleleri anlamsal özelliklerini taşıyan yoğun sayısal vektörlere dönüştürür. Anlamca birbirine yakın olan cümleler vektör uzayında da birbirine yakın konumlarda yer alır. Vektör veritabanları ve FAISS gibi benzerlik arama kütüphaneleri, çok sayıda vektör arasında kosinüs benzerliği veya iç çarpım kullanarak en yakın sonuçları milisaniyeler içinde bulur. Sorgu metni de aynı yöntemle vektöre çevrilerek indeksteki belge parçalarıyla karşılaştırılır. Böylece anahtar kelimeler birebir eşleşmese bile anlam bakımından en uygun bağlam parçaları kolayca seçilir."
+  },
+  {
+    "source": "ornek_tr.txt",
+    "chunk_id": 3,
+    "text": "Bu projenin temel amacı, MiniLM veya TinyLlama gibi dışarıdan indirilen hazır modellere bağımlı olmadan çalışan tamamen yerel bir RAG ve Mini-LLM sistemi kurmaktır. Tüm veri kümeleri, bilgi tabanı belgeleri ve model ağırlıkları kullanıcının kendi bilgisayarında açık kaynak kodlarla sıfırdan oluşturulur. İnternet bağlantısı veya harici sunucu erişimi gerektirmediği için veri gizliliği tam olarak korunur. Küçük ölçekli bir dil modelini kendi verilerimizle eğitmek, yapay zekanın çalışma mantığını adım adım anlamak açısından büyük bir eğitim değeri sunar. Proje, hem gündelik Türkçe sohbetleri yanıtlayabilen hem de kendisine verilen belgelerin dışına çıkmadan bilgi aktarabilen hafif bir asistan hedefler."
+  },
+  {
+    "source": "ornek_tr.txt",
+    "chunk_id": 4,
+    "text": "Python, sade sözdizimi ve zengin veri işleme ekosistemi nedeniyle bu projenin ana programlama dili olarak seçilmiştir. PyTorch kütüphanesi ise sıfırdan kurulan Transformer tabanlı Mini-LLM mimarisinin tanımlanması, gradyanların hesaplanması ve modelin eğitilmesi için kullanılır. Eğitim sırasında metinler belirteçlere yani tokenlara ayrılır, kayıp fonksiyonu optimize edilir ve en iyi doğrulama sonucunu veren model kontrol noktaları diske kaydedilir. Çıkarım aşamasında Python betikleri kullanıcının sorusunu alır, yerel arama motorundan ilgili parçaları çeker ve eğitilmiş PyTorch modeline bağlam olarak sunar. Bu bütünleşik yapı sayesinde düşük donanım kaynaklarında bile hızlı ve tekrarlanabilir bir yapay zeka deneyimi elde edilir."
+  },
+  {
     "source": "sample.txt",
     "chunk_id": 0,
-    "text": "Artificial Intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals including humans. Machine learning is a subset of AI that provides systems the ability to automatically learn and improve from experience without being explicitly programmed."
+    "text": "Artificial Intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals including humans."
   },
   {
     "source": "sample.txt",
     "chunk_id": 1,
-    "text": "om experience without being explicitly programmed. It focuses on the development of computer programs that can access data and use it to learn for themselves. Deep learning is part of a broader family of machine learning methods based on artificial neural networks with representation learning."
+    "text": "Machine learning is a subset of AI that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. It focuses on the development of computer programs that can access data and use it to learn for themselves."
   },
   {
     "source": "sample.txt",
     "chunk_id": 2,
-    "text": "cial neural networks with representation learning. Deep learning architectures such as deep neural networks, recurrent neural networks, and convolutional neural networks have been applied to fields including computer vision, speech recognition, natural language processing, and more."
+    "text": "Deep learning is part of a broader family of machine learning methods based on artificial neural networks with representation learning. Deep learning architectures such as deep neural networks, recurrent neural networks, and convolutional neural networks have been applied to fields including computer vision, speech recognition, natural language processing, and more."
   },
   {
     "source": "sample.txt",
     "chunk_id": 3,
-    "text": "ecognition, natural language processing, and more. A transformer is a deep learning model that adopts the mechanism of self-attention, differentially weighting the significance of each part of the input data. Transformers were introduced in the 2017 paper \"Attention is All You Need\" by Vaswani et al. They are mainly used in the fields of natural language processing (NLP) and computer vision."
+    "text": "A transformer is a deep learning model that adopts the mechanism of self-attention, differentially weighting the significance of each part of the input data. Transformers were introduced in the 2017 paper \"Attention is All You Need\" by Vaswani et al. They are mainly used in the fields of natural language processing (NLP) and computer vision."
   },
   {
     "source": "sample.txt",
     "chunk_id": 4,
-    "text": "ral language processing (NLP) and computer vision. Retrieval-Augmented Generation (RAG) is a technique that combines an information retrieval component with a text generator. The retrieval component fetches relevant documents from a knowledge base, and then the generator produces a response conditioned on both the input query and the retrieved documents."
+    "text": "Retrieval-Augmented Generation (RAG) is a technique that combines an information retrieval component with a text generator. The retrieval component fetches relevant documents from a knowledge base, and then the generator produces a response conditioned on both the input query and the retrieved documents. RAG helps ground language models in factual, up-to-date information."
   },
   {
     "source": "sample.txt",
     "chunk_id": 5,
-    "text": "both the input query and the retrieved documents. RAG helps ground language models in factual, up-to-date information. FAISS (Facebook AI Similarity Search) is a library for efficient similarity search and clustering of dense vectors. It contains algorithms that search in sets of vectors of any size. FAISS is written in C++ with complete wrappers for Python."
+    "text": "FAISS (Facebook AI Similarity Search) is a library for efficient similarity search and clustering of dense vectors. It contains algorithms that search in sets of vectors of any size. FAISS is written in C++ with complete wrappers for Python."
   },
   {
     "source": "sample.txt",
     "chunk_id": 6,
-    "text": "written in C++ with complete wrappers for Python. Sentence Transformers is a Python framework for state-of-the-art sentence, text, and image embeddings. The model all-MiniLM-L6-v2 is one of the most popular lightweight models for semantic search, producing 384-dimensional vectors. Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability."
+    "text": "Sentence Transformers is a Python framework for state-of-the-art sentence, text, and image embeddings. The model all-MiniLM-L6-v2 is one of the most popular lightweight models for semantic search, producing 384-dimensional vectors."
   },
   {
     "source": "sample.txt",
     "chunk_id": 7,
-    "text": "Its design philosophy emphasizes code readability. Python is dynamically typed and garbage-collected and supports multiple programming paradigms including structured, object-oriented, and functional programming."
+    "text": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability. Python is dynamically typed and garbage-collected and supports multiple programming paradigms including structured, object-oriented, and functional programming."
   }
 ]
